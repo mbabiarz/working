@@ -1,0 +1,115 @@
+/* Broad Spectrum */
+body {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+a {
+  color: #9c8061;
+}
+a:hover {
+  color: #9c8061;
+}
+a:active, a:visited {
+  color: #9c8061;
+}
+.padding40-60 {
+  padding: 40px 60px;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+.clearfix {
+  clear: both;
+}
+
+/* Header & Navigation */
+.navbar .utilities {
+/*  background-color: #444;*/
+  background: -webkit-linear-gradient(0deg, #232526 10%, #414345 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(0deg, #232526 10%, #414345 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(0deg, #232526 10%, #414345 90%); /* IE10 */
+  background:      -o-linear-gradient(0deg, #232526 10%, #414345 90%); /* Opera 11.10+ */
+  background:         linear-gradient(180deg, #232526 10%, #414345 90%); /* W3C */
+  color: #e7e7e7;
+  font-weight: 300;
+  font-size: 10px;
+  border-bottom: 1px solid #414345;
+}
+.navbar .utilities ul {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.navbar .utilities .utils {
+  text-align: right;
+}
+.navbar .utilities ul>li>a {
+  color: #e7e7e7;
+  text-transform: uppercase;
+}
+.navbar .utilities ul>li>a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar .utilities ul>li>a>i {
+  
+}
+.navbar-brand {
+    height: 64px;
+    padding: 10px;
+}
+.navbar-brand img {
+  height: 42px; 
+}
+.navbar-default .navbar-nav>li>a {
+  color: #585858;
+  font-weight: 400;
+  letter-spacing: .05rem; 
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Home Page */
+.jumbotron { 
+  background-color: #222;
+  color: #ffffff;
+  padding: 100px 25px;
+}
+.icon {
+  font-size: 200px;
+}
+
+/* Footers */
+footer {
+  
+  background: #272727;
+           
+}
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #f4511e;
+}
+footer .footer-logo {
+  height: 36px;
+  margin-top: 20px;
+}
+
+.copyright {
+  background: #181818;
+  border-top: 1px solid #181818;
+}
+
+
+
+/*------ Media Styles -------*/
+@media screen and (max-width: 768px) {
+  .col-sm-4, .col-sm-3, .navbar .utilities .utils {
+      text-align: center;
+  }
+  .col-sm-3 {
+    margin: 15px;
+  }
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
