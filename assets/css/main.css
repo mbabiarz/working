@@ -1,15 +1,18 @@
 /* Broad Spectrum */
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 a {
-  color: #9c8061;
+  color: #956646;
 }
 a:hover {
-  color: #9c8061;
+  color: #956646;
 }
 a:active, a:visited {
-  color: #9c8061;
+  color: #956646;
 }
 .padding40-60 {
   padding: 40px 60px;
@@ -32,7 +35,6 @@ a:active, a:visited {
   color: #e7e7e7;
   font-weight: 300;
   font-size: 10px;
-  border-bottom: 1px solid #414345;
 }
 .navbar .utilities ul {
   margin-top: 4px;
@@ -49,8 +51,9 @@ a:active, a:visited {
   color: #fff;
   text-decoration: none;
 }
-.navbar .utilities ul>li>a>i {
-  
+.navbar {
+  border: 0;
+  border-bottom: 1px solid #c1c1c1;
 }
 .navbar-brand {
     height: 64px;
@@ -65,9 +68,17 @@ a:active, a:visited {
   letter-spacing: .05rem; 
   text-transform: uppercase;
   text-align: center;
+  height: 64px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #956646;
+  border-bottom: 3px solid #956646;
 }
 
 /* Home Page */
+body#home {
+  padding-top: 66px;
+}
 .jumbotron { 
   background-color: #222;
   color: #ffffff;
@@ -79,9 +90,8 @@ a:active, a:visited {
 
 /* Footers */
 footer {
-  
   background: #272727;
-           
+  color: #e7e7e7;
 }
 footer .glyphicon {
   font-size: 20px;
@@ -101,6 +111,11 @@ footer .footer-logo {
 
 
 /*------ Media Styles -------*/
+@media screen and (max-width: 410px) {
+  body#home {
+    padding-top: 108px;
+  }
+}
 @media screen and (max-width: 768px) {
   .col-sm-4, .col-sm-3, .navbar .utilities .utils {
       text-align: center;
@@ -111,5 +126,8 @@ footer .footer-logo {
   .navbar {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  body#home {
+    padding-top: 66px;
   }
 }
