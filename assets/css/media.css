@@ -1,0 +1,52 @@
+/*------ Media Styles -------*/
+@media screen and (max-width: 1200px) {
+  .product-thumbnails a.btn {
+    top:48px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .product-thumbnails a.btn {
+    top:80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4, .col-sm-3, .navbar .utilities .utils {
+      text-align: center;
+  }
+  .col-sm-3 {
+    margin: 15px;
+  }
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  body#home {
+    padding-top: 88px;
+  }
+  .carousel-caption h2 {
+    font-size: 200%;
+  }
+  .carousel-caption h4 {
+    font-size: 100%;
+  }
+  .home-search h3 {
+    font-size:120%;
+  }
+  .home-about, .home-features {
+    text-align: center;
+  }
+  .product-thumbnails a.btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .carousel-caption h2 {
+    font-size: 120%;
+  }
+  .carousel-caption h4 {
+    font-size: 80%;
+  }
+  .home-search h3 {
+    font-size:100%;
+  }
+}

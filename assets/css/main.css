@@ -4,24 +4,87 @@
 }
 body {
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #444;
 }
 a {
-  color: #956646;
+  color: #9c8061;
 }
 a:hover {
-  color: #956646;
+  color: #9c8061;
 }
 a:active, a:visited {
-  color: #956646;
+  color: #9c8061;
 }
-.padding40-60 {
+h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: .15rem;
+  line-height: 2.5rem;
+}
+p {
+  font-weight: 300;
+  line-height: 2.3rem;
+  letter-spacing: .02rem;
+  padding-bottom: 10px
+}
+.caption h4 {
+  font-size: 120%;
+  margin-top: 20px;
+}
+.caption p {
+  font-size: 90%;
+  line-height: 2rem;
+}
+.bold {
+  font-weight: 400;
+}
+.padding-40-60 {
   padding: 40px 60px;
+}
+.padding-tb-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.padding-right-60 {
+  padding-right: 60px;
 }
 .bg-grey {
     background-color: #f6f6f6;
 }
 .clearfix {
   clear: both;
+}
+.section-heading {
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 10px;
+}
+.form-control {
+  font-weight: 300;
+  border-radius: 0;
+}
+.btn, .btn:visited {
+  background-color: #9c8061;
+  border-radius: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1);
+}
+.form-control:focus, .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    border-color: #adaaa8;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1);
+    color: #fff;
+}
+.btn:hover {
+  background-color: #81674b;
+  color: #fff;
 }
 
 /* Header & Navigation */
@@ -53,7 +116,10 @@ a:active, a:visited {
 }
 .navbar {
   border: 0;
-  border-bottom: 1px solid #c1c1c1;
+}
+.main-nav {
+  /* border-bottom: 1px solid #ccc; */
+  box-shadow: 0 0 6px rgba(0,0,0,.2);
 }
 .navbar-brand {
     height: 64px;
@@ -71,21 +137,66 @@ a:active, a:visited {
   height: 64px;
 }
 .navbar-default .navbar-nav>li>a:hover {
-  color: #956646;
-  border-bottom: 3px solid #956646;
+  color: #9c8061;
+  border-bottom: 3px solid #9c8061;
 }
 
 /* Home Page */
 body#home {
   padding-top: 66px;
 }
-.jumbotron { 
-  background-color: #222;
-  color: #ffffff;
-  padding: 100px 25px;
+.carousel-caption h2 {
+  font-size: 320%;
+  font-weight: 800;
+  letter-spacing: .05rem;
+  text-transform: uppercase
 }
-.icon {
-  font-size: 200px;
+.carousel-caption h4 {
+  font-size: 180%;
+  font-weight: 300;
+  letter-spacing: .1rem;
+}
+.home-search {
+  background: #e8e8e8 url("../img/concrete_seamless.png") repeat;
+  color: #585858;
+  border-top: 1px solid #ccc;
+/*
+  border-bottom: 1px solid #ccc;
+*/
+  padding: 5px 0 20px 0;
+}
+.home-search .input-group {
+  padding: 10px 20%;
+}
+.home-search h3 {
+  font-weight: 600;
+  letter-spacing: .05rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.product-thumbnails {
+  position: relative;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eee;
+}
+.product-thumbnails .caption h4 {
+  font-size: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.product-thumbnails .caption p {
+  font-size: 80%;
+  line-height: 1.6rem;
+}
+.product-thumbnails a.btn {
+  position: absolute;
+  top: 70px;
+  right: -10px;
+  font-size: 80%;
+  padding: 8px;
+  line-height: 60%;
+  text-transform: none;
+  box-shadow: 0 0 6px rgba(0,0,0,.4);
 }
 
 /* Footers */
@@ -106,28 +217,4 @@ footer .footer-logo {
 .copyright {
   background: #181818;
   border-top: 1px solid #181818;
-}
-
-
-
-/*------ Media Styles -------*/
-@media screen and (max-width: 410px) {
-  body#home {
-    padding-top: 108px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .col-sm-4, .col-sm-3, .navbar .utilities .utils {
-      text-align: center;
-  }
-  .col-sm-3 {
-    margin: 15px;
-  }
-  .navbar {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  body#home {
-    padding-top: 66px;
-  }
 }
