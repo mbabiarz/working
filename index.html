@@ -4,10 +4,14 @@
   <title>Bootstrap Theme Company</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Styles -->
+  <!-- Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,300italic,100italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
+  <!-- Basic Styles -->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Custom Styles -->
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/media.css">
 </head>
@@ -101,7 +105,7 @@
   </div>
   <!-- End Carousel -->
 
-  <!-- Home Search -->
+  <!-- Search -->
   <section class="container-fluid text-center home-search">
     <h3>What are you trying to clean?</h3>
     <div class="input-group">
@@ -111,24 +115,27 @@
       </span>
     </div>
   </section>
-  
+  <!-- End Search -->
+      
+  <!-- About -->
   <section class="home-about">
     <div class="container padding-tb-30">
-      <div class="col-sm-6">
+      <div class="col-sm-9 description padding-right-120">
         <h2>Waterblast Equipment for Industrial Cleaning</h2>
         <p><span class="bold">StoneAge, Inc. is one of the world’s leading manufacturers of high-pressure waterblast tools and automated equipment for industrial companies and contractors worldwide.</span> Our products have been an industry standard for over 30 years and we continue to lead the way with automated equipment designs that promote safety and advance productivity for a wide variety of applications.</p>
-        <button class="btn">Contact Our Team</button>
-        <button class="btn">About Our Company</button>
       </div>
-      <div class="col-sm-5 col-sm-offset-1">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/t-WmNLfQa0Q" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
+      <aside class="col-sm-3 offset-sm-1 padding-tb-30 cta">
+        <p class="point"><span>Need help with a job?</span><br>
+        <a href="#">Contact Our Team of Experts</a></p>
+        <p class="point late"><span>Want to know more about us?</span><br>
+        <a href="#">Read About Our Company</a></p>
+      </aside>
     </div>
   </section>
-      
-  <section class="home-features bg-grey">
+  <!-- End About -->
+   
+  <!-- Features -->    
+  <section class="home-features bg-lt-grey">
     <div class="container padding-tb-30">
       <!-- Events -->
       <div class="col-md-3 padding-right-60">
@@ -231,7 +238,64 @@
       
     </div>
   </section>
+  <!-- End Features -->
       
+  <!-- Testimonials -->
+  <div id="wordCarousel" class="carousel slide bg-md-grey padding-tb-30" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#wordCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#wordCarousel" data-slide-to="1"></li>
+      <li data-target="#wordCarousel" data-slide-to="2"></li>
+      <li data-target="#wordCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div class="testimonial">
+          <p>"We recognize StoneAge as a long term business partner.<br>
+The products we purchase are of the highest specification from a technical, quality, and health &amp; safety perspective."</p>
+          <p class="attrib">- Andrew Dobson, Veolia</p>
+          <img src="assets/img/logo_veolia.png" alt="Veolia">
+        </div>
+      </div>
+      <div class="item">
+        <div class="testimonial">
+          <p>"The City of Los Angeles manages one of the largest wastewater collections systems in the country. They benchmarked the new Warthog Magnum against the competition and confirmed that it was the best cleaning tool available."</p>
+          <p class="attrib">- John Pujol, Advanced Infrastructure Technologies</p>
+          <img src="assets/img/logo_ait.png" alt="Advanced Infrastructure Technologies">
+        </div>
+      </div>
+      <div class="item">
+        <div class="testimonial">
+          <p>"StoneAge helped us get our equipment fleet 100% automated."</p>
+          <p class="attrib">- Doug Mcgee, Evergreen Industrial Services</p>
+          <img src="assets/img/logo_evergreen.png" alt="Evergreen Industrial Services">
+        </div>
+      </div>
+      <div class="item">
+        <div class="testimonial">
+          <p>"My customers are very happy. When we’re doing research and development along with StoneAge, they think it’s a big plus to have engineers that can get out in the field and work right along with us."</p>
+          <p class="attrib">- Richard Bombard, PSC</p>
+          <img src="assets/img/logo_psc.png" alt="PSC">
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls 
+    <a class="left carousel-control" href="#homeSlides" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#homeSlides" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>-->
+  </div>
+  <!-- End Testimonials -->
+  
+  <!-- Footer -->
   <footer>
     <div class="container padding-tb-30">
 
@@ -288,45 +352,18 @@
       </div>
       <div class="col-md-1">
         <a href="#home" title="To Top" class="to-top">
-          <span class="glyphicon glyphicon-chevron-up"></span><br>
-          Top of Page
+          <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
       </div>
     </div>
   </div>
+  <!-- End Footer -->
 
 
-
-
-
-
-<!-- Scripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<!-- Smooth page up -->
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".copyright a[href='#home']").on('click', function(event) {
-
-  // Prevent default anchor click behavior
-  event.preventDefault();
-
-  // Store hash
-  var hash = this.hash;
-
-  // Using jQuery's animate() method to add smooth page scroll
-  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-  $('html, body').animate({
-    scrollTop: $(hash).offset().top
-  }, 900, function(){
-
-    // Add hash (#) to URL when done scrolling (default click behavior)
-    window.location.hash = hash;
-    });
-  });
-})
-</script>
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="assets/js/custom.js"></script>
 
 </body>
 </html>

@@ -56,8 +56,14 @@ p {
 .padding-right-60 {
   padding-right: 60px;
 }
-.bg-grey {
+.padding-right-120 {
+  padding-right: 120px;
+}
+.bg-lt-grey {
     background-color: #f6f6f6;
+}
+.bg-md-grey {
+    background-color: #e7e7e7;
 }
 .clearfix {
   clear: both;
@@ -170,9 +176,7 @@ body#home {
   background: #e8e8e8 url("../img/concrete_seamless.png") repeat;
   color: #585858;
   border-top: 1px solid #ccc;
-/*
-  border-bottom: 1px solid #ccc;
-*/
+  border-bottom: 9px solid #f6f6f6;
   padding: 5px 0 20px 0;
 }
 .home-search .input-group {
@@ -183,6 +187,39 @@ body#home {
   letter-spacing: .05rem;
   margin-bottom: 0;
   text-transform: uppercase;
+}
+.home-about .cta p {
+  padding: 0 0 0 20px;
+  border-left: 1px dotted #eee;
+  margin-bottom: 20px;
+  line-height: 130%;
+  opacity: 0;
+   -webkit-transform: translateX(3rem);
+   -moz-transform: translateX(3rem);
+   transform: translateX(3rem);
+   -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
+   -webkit-transition-delay: 0.2s;
+   -moz-transition-delay: 0.2s;
+   transition-delay: 0.2s;
+}
+.home-about .cta p.late {
+   -webkit-transition-delay: 0.5s;
+   -moz-transition-delay: 0.5s;
+   transition-delay: 0.5s;
+}
+.home-about .cta span {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 600;
+  font-size: 90%;
+  letter-spacing: .1rem;
+}
+.home-about .cta a {
+  font-style: italic;
+}
+.home-features {
+  border-top: 9px solid #e7e7e7;
 }
 .product-thumbnails {
   position: relative;
@@ -207,6 +244,33 @@ body#home {
   line-height: 60%;
   text-transform: none;
   box-shadow: 0 0 6px rgba(0,0,0,.4);
+}
+#wordCarousel {
+  background: #e8e8e8 url("../img/concrete_seamless.png") repeat;
+  height: 320px;
+  text-align: center;
+/*  border-bottom: 22px solid #9c8061;*/
+}
+#wordCarousel .item p {
+  width: 60%;
+  font-size: 120%;
+  font-style: italic;
+  line-height: 180%;
+  margin: 10px auto;
+  color: #949494;
+  letter-spacing: .1rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+}
+#wordCarousel .item p.attrib {
+  font-family: "Lato", sans-serif;
+  font-size: 100%;
+  margin-top: 0;
+  font-weight: 400;
+  color: #b6b6b6;
+}
+#wordCarousel .item img {
+  margin-bottom: 40px;
 }
 
 /* Footers */
