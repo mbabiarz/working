@@ -5,6 +5,7 @@
 body {
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #444;
+  padding-top: 66px;
 }
 a {
   color: #9c8061;
@@ -130,8 +131,8 @@ p {
   border: 0;
 }
 .main-nav {
-  /* border-bottom: 1px solid #ccc; */
-  box-shadow: 0 0 6px rgba(0,0,0,.2);
+   border-bottom: 3px solid #fff; 
+/*  box-shadow: 0 0 6px rgba(0,0,0,.2);*/
 }
 .navbar-brand {
     height: 64px;
@@ -157,9 +158,6 @@ p {
 }
 
 /* Home Page */
-body#home {
-  padding-top: 66px;
-}
 .carousel-caption h2 {
   font-size: 320%;
   font-weight: 800;
@@ -286,6 +284,36 @@ body#home {
 #wordCarousel .carousel-indicators .active {
   background-color: #b6b6b6;
 }
+
+/* Landing Pages */
+.landing-nav {
+  background-color: #e2e2e2;
+  height: 180px;
+}
+.landing-nav .landing-nav-btn {
+  text-align: center;
+  height: 100%;
+  padding-top: 50px;
+}
+.landing-nav .landing-nav-btn.automated {
+  border-right: 3px solid #fff;
+}
+.landing-nav .landing-nav-btn i {
+  font-size: 30px;
+}
+.landing-nav .landing-nav-btn h2 {
+  font-family: 'Roboto Slab', 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 30px
+}
+.landing-nav .landing-nav-btn a {
+  color: #444;
+}
+.landing-nav .landing-nav-btn a:hover {
+  color: #9c8061;
+  text-decoration: none;
+}
+
 
 /* Footers */
 footer {
