@@ -189,9 +189,11 @@ body#home {
 }
 .home-about h2 {
   font-size: 24px;
+  margin-bottom: 20px;
 }
 .home-about p {
   font-size: 16px;
+  line-height: 180%;
 }
 .home-about .cta p {
   font-size: 14px;
