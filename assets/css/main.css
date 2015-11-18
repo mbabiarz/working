@@ -265,7 +265,7 @@ body#home {
   font-style: italic;
   line-height: 180%;
   margin: 10px auto;
-  color: #b6b6b6;
+  color: #888888;
   letter-spacing: .1rem;
   font-family: 'Roboto Slab', serif;
   font-weight: 100;
@@ -275,7 +275,7 @@ body#home {
   font-size: 100%;
   margin-top: 0;
   font-weight: 400;
-  color: #ccc;
+  color: #a7a7a7;
 }
 #wordCarousel .item img {
   margin-bottom: 40px;
