@@ -281,10 +281,10 @@ body#home {
   margin-bottom: 40px;
 }
 #wordCarousel .carousel-indicators li {
-  border: 1px solid #a7a7a7;
+  border: 1px solid #b6b6b6;
 }
 #wordCarousel .carousel-indicators .active {
-  background-color: #a7a7a7;
+  background-color: #b6b6b6;
 }
 
 /* Footers */

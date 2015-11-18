@@ -41,7 +41,7 @@ var animatePoints = function(points) {
 
 window.onload = function() {
   // Automatically animate on tall screens
-  if (window.innerHeight > 950) {
+  if (window.innerHeight > 750) {
     animatePoints(pointsArray);
   }
   // Animate on scroll
