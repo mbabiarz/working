@@ -8,6 +8,9 @@
   .product-thumbnails a.btn {
     top:80px;
   }
+  body#home .col-md-3 img, body#home .col-md-2 img {
+    max-width: 200px;
+  }
 }
 @media screen and (max-width: 768px) {
   .col-sm-4, .col-sm-3, .navbar .utilities .utils {
@@ -22,6 +25,13 @@
   }
   body#home {
     padding-top: 88px;
+  }
+  body#home .col-md-3 img, body#home .col-md-2 img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .padding-right-60, .padding-right-120 {
+    padding-right: 15px;
   }
   .carousel-caption h2 {
     font-size: 200%;
@@ -38,6 +48,11 @@
   .product-thumbnails a.btn {
     display: none;
   }
+  #wordCarousel .item p {
+  font-size: 100%;
+  }
+  #wordCarousel .item p.attrib {
+  font-size: 90%;
 }
 @media screen and (max-width: 480px) {
   .carousel-caption h2 {

@@ -40,7 +40,6 @@ p {
   margin-top: 20px;
 }
 .caption p {
-  font-size: 90%;
   line-height: 2rem;
 }
 .bold {
@@ -188,6 +187,9 @@ body#home {
   margin-bottom: 0;
   text-transform: uppercase;
 }
+.home-about p {
+  font-size: 16px;
+}
 .home-about .cta p {
   padding: 0 0 0 20px;
   border-left: 1px dotted #eee;
@@ -247,7 +249,7 @@ body#home {
 }
 #wordCarousel {
   background: #e8e8e8 url("../img/concrete_seamless.png") repeat;
-  height: 320px;
+  min-height: 320px;
   text-align: center;
 /*  border-bottom: 22px solid #9c8061;*/
 }
