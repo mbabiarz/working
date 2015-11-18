@@ -283,10 +283,10 @@ body#home {
 footer {
   background: #272727;
   color: #ccc;
-  font-size: 90%;
   letter-spacing: .1rem;
   line-height: 2rem;
   font-weight: 400;
+  font-size: 11px;
 }
 footer .section-heading {
   border-bottom: 1px dotted #888b8e;
@@ -299,7 +299,6 @@ footer a:active, footer a:visited {
 */
 footer .link-list a {
   color: #ccc;
-  font-size: 11px;
   letter-spacing: .05rem;
   padding: 6px 0px;
   display: inline-block;
@@ -322,6 +321,7 @@ footer .map-bg {
 }
 footer address {
   line-height: 2.4rem;
+  font-size: 12px;
 }
 footer .footer-logo {
   height: 36px;
@@ -331,7 +331,7 @@ footer .footer-logo {
 .copyright {
   background: #181818;
   border-top: 1px solid #181818;
-  font-size: 90%;
+  font-size: 11px;
   padding-top: 4px;
 }
 .copyright a {
