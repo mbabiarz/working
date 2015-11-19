@@ -12,6 +12,7 @@
     max-width: 200px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .col-sm-4, .col-sm-3, .navbar .utilities .utils {
     text-align: center;
@@ -23,7 +24,8 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  body#home {
+  /* Home Page */
+  body {
     padding-top: 88px;
   }
   body#home .col-md-3 img, body#home .col-md-2 img {
@@ -53,7 +55,17 @@
   }
   #wordCarousel .item p.attrib {
   font-size: 90%;
+  }
+  /* Landing Pages */
+  .landing-nav .landing-nav-btn.automated {
+  border-bottom: 3px solid #fff;
+  border-right: 0;
+  }
+  .wb-automated h1 {
+  text-align: center;
+  }
 }
+  
 @media screen and (max-width: 480px) {
   .carousel-caption h2 {
     font-size: 120%;

@@ -7,6 +7,10 @@ body {
   color: #444;
   padding-top: 66px;
 }
+.row {
+  margin: 0;
+  padding: 0;
+}
 a {
   color: #9c8061;
 }
@@ -46,6 +50,9 @@ p {
 .bold {
   font-weight: 700;
 }
+.padding-30 {
+  padding: 30px;
+}
 .padding-40-60 {
   padding: 40px 60px;
 }
@@ -58,6 +65,9 @@ p {
 }
 .padding-right-120 {
   padding-right: 120px;
+}
+.padding-left-120 {
+  padding-left: 120px;
 }
 .bg-lt-grey {
     background-color: #f6f6f6;
@@ -98,6 +108,9 @@ p {
 .btn:hover {
   background-color: #81674b;
   color: #fff;
+}
+.heading-img{
+  padding: 0;
 }
 
 /* Header & Navigation */
@@ -143,7 +156,7 @@ p {
 }
 .navbar-default .navbar-nav>li>a {
   color: #585858;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: .05rem; 
   text-transform: uppercase;
   text-align: center;
@@ -287,19 +300,22 @@ p {
 
 /* Landing Pages */
 .landing-nav {
-  background-color: #e2e2e2;
-  height: 180px;
+/*  background-color: #e2e2e2;*/
+  background-color: #d9d5d2;
+  border-bottom: 3px solid #fff;
 }
 .landing-nav .landing-nav-btn {
   text-align: center;
   height: 100%;
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 .landing-nav .landing-nav-btn.automated {
   border-right: 3px solid #fff;
 }
 .landing-nav .landing-nav-btn i {
   font-size: 30px;
+/*  color: #888;*/
 }
 .landing-nav .landing-nav-btn h2 {
   font-family: 'Roboto Slab', 'Lato', sans-serif;
@@ -313,7 +329,29 @@ p {
   color: #9c8061;
   text-decoration: none;
 }
-
+.wb-automated h1 {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-size: 5vw;
+/*  color: #d9d5d2;*/
+  text-align: right;
+}
+.wb-rotary h1 {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-size: 5vw;
+/*  color: #d9d5d2;*/
+}
+.list-group-item.active {
+  font-family: 'Roboto Slab', 'Lato', sans-serif;
+  background-color: #565656;
+  border-color: #565656;
+}
+a.list-group-item {
+  color: #444;
+}
 
 /* Footers */
 footer {
@@ -321,7 +359,7 @@ footer {
   color: #ccc;
   letter-spacing: .1rem;
   line-height: 2rem;
-  font-weight: 400;
+  font-weight: 400%;
   font-size: 11px;
 }
 footer .section-heading {
