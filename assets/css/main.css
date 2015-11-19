@@ -69,6 +69,9 @@ p {
 .padding-left-120 {
   padding-left: 120px;
 }
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
 .bg-lt-grey {
     background-color: #f6f6f6;
 }
@@ -119,6 +122,7 @@ p {
   text-transform: uppercase;
   padding-top: 10px;
   border-top: 1px solid #e9e9e9;
+  margin-bottom: 30px;
 }
 /* Header & Navigation */
 .navbar .utilities {
@@ -312,12 +316,11 @@ p {
   border-bottom: 3px solid #fff;
 }
 .landing-nav .landing-nav-btn {
-  text-align: center;
-  height: 100%;
-  padding-top: 50px;
-  padding-bottom: 20px;
 }
 .landing-nav .landing-nav-btn.automated {
+  border-right: 3px solid #fff;
+  border-left: 3px solid #fff;
+}.landing-nav .landing-nav-btn.rotary {
   border-right: 3px solid #fff;
 }
 .landing-nav .landing-nav-btn i {
@@ -329,11 +332,20 @@ p {
   font-weight: 800;
   font-size: 30px
 }
+.col-sm-6.landing-nav-btn {
+  padding: 0;
+}
 .landing-nav .landing-nav-btn a {
   color: #444;
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 .landing-nav .landing-nav-btn a:hover {
-  color: #9c8061;
+  background-color: #c3b2a0;
   text-decoration: none;
 }
 .wb-automated h1 {
@@ -358,8 +370,38 @@ p {
 a.list-group-item {
   color: #444;
 }
+.product-list .list-group-item .label {
+  float: right;
+  border-radius: 0;
+}
 
 /* Footers */
+.footer-cta {
+  background-color: #9c8061;
+  padding: 10px 0;
+}
+.footer-cta a {
+  color: #c3b2a0;
+  font-family: 'Roboto Slab', 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+}
+.footer-cta span {
+  color: #c3b2a0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.footer-cta a:hover, .footer-cta a:hover>span {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-cta i {
+  font-size: 90%;
+  position: relative;
+  top: -1rem;
+}
+
 footer {
   background: #272727;
   color: #ccc;
