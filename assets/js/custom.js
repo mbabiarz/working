@@ -1,7 +1,7 @@
 //***** Smooth page up *****//
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
-  $(".copyright a[href='#home']").on('click', function(event) {
+  $("a[href='#top']").on('click', function(event) {
 
   // Prevent default anchor click behavior
   event.preventDefault();
