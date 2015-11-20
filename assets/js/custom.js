@@ -44,7 +44,6 @@ $(document).ready(function(){
   });
 })
 
-
 //***** Animate home page CTA's *****//
 var pointsArray = document.getElementsByClassName("point");
 
@@ -76,3 +75,8 @@ window.onload = function() {
     }
   });
 }
+
+//***** Master Slider *****//
+jQuery(document).ready(function() {    
+  MasterSliderShowcase2.initMasterSliderShowcase2();
+});
