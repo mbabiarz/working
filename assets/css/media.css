@@ -26,7 +26,7 @@
   }
   /* Home Page */
   body {
-    padding-top: 88px;
+    padding-top: 105px;
   }
   body.home .col-md-3 img, body.home .col-md-2 img {
     margin-left: auto;
@@ -34,6 +34,9 @@
   }
   .padding-right-60, .padding-right-120 {
     padding-right: 15px;
+  }
+  .padding-left-60, .padding-left-120 {
+    padding-left: 15px;
   }
   .carousel-caption h2 {
     font-size: 200%;
@@ -75,5 +78,11 @@
   }
   .home-search h3 {
     font-size:100%;
+  }
+  .btn.contact {
+    font-size: 3.6vw;
+  }
+  .breadcrumb {
+    font-size: 80%;
   }
 }
