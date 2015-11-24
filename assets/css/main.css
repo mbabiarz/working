@@ -508,12 +508,11 @@ a.list-group-item {
   border: 0;
 }
 .product-extra p {
-  font-style: italic;
+  font-size: 110%;
   line-height: 180%;
   margin: 10px auto;
   color: #888888;
   letter-spacing: .1rem;
-  font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
 .product-extra td {
@@ -570,6 +569,7 @@ a.list-group-item {
 }
 .product-testimonials .insight p {
   color: #fff;
+  font-family: 'Roboto Slab', 'Lato', sans-serif;
   font-style: italic;
   font-size: 18px;
   font-size: 1.5vw;
@@ -577,6 +577,7 @@ a.list-group-item {
   margin-bottom: 15px;
 }
 .product-testimonials .insight p.signed {
+  font-family: 'Lato', sans-serif;
   float: right;
   margin-bottom: 0;
   font-size: 14px;
