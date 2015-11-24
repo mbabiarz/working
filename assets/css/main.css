@@ -120,6 +120,12 @@ p {
 .heading-img{
   padding: 0;
 }
+.carousel-control.left, .carousel-control.right {
+  background: none;
+}
+.product-testimonials .carousel img, .home-slider .carousel img {
+  min-width: 100%;
+}
 .to-top {
   text-align: right;
   font-size: 11px;
@@ -582,6 +588,7 @@ a.list-group-item {
   font-size: 14px;
   font-size: 1.2vw;
 }
+
 
 /* Footers */
 .footer-cta {
