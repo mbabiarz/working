@@ -123,7 +123,7 @@ p {
 .carousel-control.left, .carousel-control.right {
   background: none;
 }
-.carousel>.item>img {
+.carousel .item>img {
   min-width: 100%;
 }
 .to-top {
