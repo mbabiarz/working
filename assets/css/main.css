@@ -123,7 +123,7 @@ p {
 .carousel-control.left, .carousel-control.right {
   background: none;
 }
-.product-testimonials .carousel img, .home-slider .carousel img {
+.carousel>.item>img {
   min-width: 100%;
 }
 .to-top {
@@ -571,22 +571,20 @@ a.list-group-item {
   z-index: 10;
   position: absolute;
 }
-.product-testimonials .insight img {
-  max-width: 75%;
+.product-testimonials .insight>img {
+  max-width: 30%;
 }
 .product-testimonials .insight p {
   color: #fff;
   font-style: italic;
   font-size: 18px;
-  font-size: 1.5vw;
   line-height: 1.6;
   margin-bottom: 15px;
 }
 .product-testimonials .insight p.signed {
   float: right;
   margin-bottom: 0;
-  font-size: 14px;
-  font-size: 1.2vw;
+  font-size: 12px;
 }
 
 
