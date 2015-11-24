@@ -67,6 +67,16 @@
   .wb-automated h1 {
   text-align: center;
   }
+  .product-testimonials .insight {
+    width: 220px;
+    bottom: 20px;
+  }
+  .product-testimonials .insight img {
+    max-width: 20%;
+  }
+  .product-testimonials .insight p {
+    margin-bottom: 10px;
+  }
 }
   
 @media screen and (max-width: 480px) {
@@ -84,5 +94,8 @@
   }
   .breadcrumb {
     font-size: 80%;
+  }
+  .product-testimonials .insight {
+    display: none;
   }
 }
