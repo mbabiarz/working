@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>StoneAge Working</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,300italic,100italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
+  <!-- Basic Styles -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body id="top" class="contact">
+  
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <!-- Utilities Nav -->
+    <div class="row utilities">
+      <div class="container">
+        <div class="col-sm-4">
+          <ul class="list-inline">
+            <li><a><i class="fa fa-globe"></i> Languages</a></li>
+            <li><a href="#"><i class="fa fa-share-alt"></i> Social Media</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-8 utils">
+          <ul class="list-inline">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Request a Catalog</a></li>
+            <li><a href="#">Portal Login</a></li>
+            <li><a href="#"><i class="search fa fa-search search-button"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Main Nav -->
+    <div class="row main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="assets/img/stoneage_logo.png" class="img-responsive"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="waterblast-tools-automated-equipment.html">Waterblast Tools &amp;<br/>Equipment</a></li>
+            <li><a href="#services">Sewer Jetting &amp;<br/>Hydro-X Nozzles</a></li>
+            <li><a href="#portfolio">Downhole<br/>Wash Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Nav -->
+  
+  <!-- Contact Main -->
+   <section id="contact">
+      <div id="map-canvas"></div>
+     
+      <!-- Nav tabs -->
+      <div class="contact-nav">
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#contact-tab" aria-controls="contact-tab" role="tab" data-toggle="tab">Contact</a></li>
+          <li role="presentation"><a href="#intl-tab" aria-controls="intl-tab" role="tab" data-toggle="tab">International</a></li>
+          <li role="presentation"><a href="#ordering-tab" aria-controls="ordering-tab" role="tab" data-toggle="tab">Ordering</a></li>
+          <li role="presentation"><a href="#support-tab" aria-controls="support-tab" role="tab" data-toggle="tab">Repairs/Returns</a></li>
+        </ul>
+        <div class="tab-content padding-tb-30">
+          <!-- Contact Tab Content -->
+          <div role="tabpanel" class="tab-pane active" id="contact-tab">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4 contact-method">
+                  <h2>
+                  <i class="fa fa-phone"></i><br/>Call Us</h2>
+                  <p>+1 970 259-2869<br/>
+                  1 866 795-1586 <small>US Toll Free</small></p>
+                  <p class="thin">OUR SUPPORT TEAM IS HERE TO HELP. WE WILL GLADLY RESPOND TO YOUR INQUIRIES AND PROVIDE ADVICE ON YOUR WATERBLAST CHALLENGES.
+                  </p>
+                  <p class="margin-bottom-30">
+                    <small>Monday to Friday:<br/>8am - 5pm MST</small>
+                  </p>
+                </div>
+                <div class="col-sm-4 contact-method">
+                  <h2><i class="fa fa-envelope-o"></i><br/>Email Us</h2>
+                  <form method="post" action="contact.php" name="contactform" id="contactform">
+                    <fieldset>
+                      <input name="name" type="text" id="name" size="30" placeholder="Name">
+                      <br>
+                      <input name=company type="text" id="company" size="30" placeholder="Company">
+                      <br>
+                      <input name="email" type="text" id="email" size="30" placeholder="Email">
+                      <br>
+                      <input name="phone" type="text" id="phone" size="30" placeholder="Phone">
+                      <br>
+                    </fieldset>
+                    <fieldset>
+                      <textarea name="comments" cols="40" rows="20" id="comments" placeholder="Message"></textarea>
+                    </fieldset>
+                    <fieldset>
+                      <button type="submit" class="btn btn-lg btn-block" id="submit" value="Submit">Send Message</button>
+                  </fieldset>
+                </form>
+                </div> 
+                <div class="col-sm-4 contact-method">
+                  <h2><i class="fa fa-share-alt"></i><br/>Share With us</h2>
+                  <p><span class="thin">We welcome general questions, comments and feedback online.</span></p>
+                  <div class="padding-tb-30 margin-top-30 margin-bottom-30">
+                    <a href="https://twitter.com/stoneagetools" target="_blank" class="btn btn-block">Tweet @Stoneagetools</a>
+                    <a href="https://www.facebook.com/Stoneagetools/" target="_blank" class="btn btn-block">Send Facebook Message</a>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <!-- International Tab Content -->
+          <div role="tabpanel" class="tab-pane" id="intl-tab">...</div>
+          <!-- Ordering Tab Content -->
+          <div role="tabpanel" class="tab-pane" id="ordering-tab">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6 contact-method">
+                  <h3 class="bold">Domestic Purchases</h3>
+                  <p><a href="#contact-tab" data-toggle="tab">Contact us</a> directly to place an order from the US or Canada.</p>
+                </div>
+                <div class="col-sm-6 contact-method">
+                  <h3 class="bold">International Purchases</h3>
+                  <p><a href="#intl-tab" data-target="#intl-tab" data-toggle="tab">Contact a dealer in your region</a> to place an order.</p>
+                </div>
+              </div>
+              <div class="row">
+                <h3>When sending a Purchase Order (PO), please be sure to include:</h3>
+                <ol>
+                  <li>A complete and accurate list of Part IDs<br/><em>Check the <a href="#">StoneAge Sales Portal</a> for accuracy and availability. If time frame is critical, please <a href="#contact-tab" data-target="#contact-tab" data-toggle="tab">contact our Customer Service Team</a> to verify availability.</em></li>
+                  <li>Shipping address</li>
+                  <li>Required date of arrival</li>
+                  <li>Preferred shipping method and account number</li>
+                  <li>If partial shipments are acceptable or a complete shipment is required</li>
+                </ol>
+                <h3>Shipping</h3>
+                <p>StoneAge can ship with the following carriers:</p>
+                <ul>
+                  <li>UPS</li>
+                  <li>FedEx</li>
+                  <li>DHL</li>
+                  <li>UPS/SCS</li>
+                  <li>Multiple freight carriers <em>—please check availability</em></li>
+                </ul>
+                <p>Please provide a preferred shipping method and account number, if applicable. Shipping charges can be included on your invoice, or we can ship on an account number you specify.</p>
+                <h3>Verify your order</h3>
+                <p>Your StoneAge Account Representative will always send an order confirmation. Please check the confirmation and <a data-tab-destination="contact-tab">notify our Customer Service Team</a> if you notice any mistakes or have any questions/concerns.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Repairs/Returns Tab Content -->
+          <div role="tabpanel" class="tab-pane" id="support-tab">
+            <div class="container">
+              <div class="row">
+                <div class="section-heading">
+                  <h2 class="bold">Repairs</h2>
+                </div>
+                <h3>When sending equipment in for repair, please be sure to:</h3>
+                <ol>
+                  <li>Obtain a Return Material Authorization (RMA) from your Account Representative</li>
+                  <li>Provide Part ID(s) — if sending a package, please include all part numbers. (i.e. BN18-H6L, BN18 442-D)</li>
+                  <li>Provide Serial Number(s)</li>
+                  <li>Provide the pressure and flow the tool is operating</li>
+                  <li>Describe the problem in detail</li>
+                </ol>
+                <p>The tool will be evaluated by a repair technician upon arrival and you will be contacted by StoneAge with a repair estimate. A PO is required to proceed with the repair.</p>
+                <div class="section-heading">
+                  <h2 class="bold">Returns</h2>
+                </div>
+                <h3>When sending a tool back for a return, please be sure to:</h3>
+                <ol>
+                  <li>Obtain a RMA from your Account Representative</li>
+                  <li>Provide Part ID(s)</li>
+                  <li>Provide Serial Number(s)</li>
+                  <li>Describe the reason for return (i.e. Demo tool, wrong part ordered, wrong part sent, return for credit, etc.)</li>
+                </ol>
+                <p>When the tool arrives it will be evaluated for condition. Your Account Representative will communicate with you regarding the return.<br/><em>Returns are subject to a 15% restock fee.</em></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Nav tabs -->
+  
+    </section>
+    <!--Google Maps API-->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp;sensor=true"></script>
+  
+  <!-- End Contact Main -->
+
+  
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container padding-tb-30">
+
+      <div class="col-sm-3 padding-right-60">
+        <div class="section-heading">
+          <h3>Product Support</h3>
+        </div>
+        <ul class="list-unstyled link-list">
+          <li><a href="#">Product Catalogs</a><i class="fa fa-angle-right"></i></li>
+          <li><a href="#">Technical Reference</a><i class="fa fa-angle-right"></i></li>
+          <li><a href="#">Service &amp; Repairs</a><i class="fa fa-angle-right"></i></li>
+          <li><a href="#">Safety Information</a><i class="fa fa-angle-right"></i></li>
+          <li><a href="#">Custom Solutions</a><i class="fa fa-angle-right"></i></li>
+        </ul>
+      </div>
+
+      <div class="col-sm-3 padding-right-60">
+        <div class="section-heading">
+          <h3>About StoneAge</h3>
+        </div>
+        <ul class="list-unstyled link-list">
+          <li><a href="#">Our Story</a><i class="fa fa-angle-right"></i></li>
+          <li><a href="#">Careers</a><i class="fa fa-angle-right"></i></li>
+          <li><a href="#">Press</a><i class="fa fa-angle-right"></i></li>
+          <li><a href="#">Contact</a><i class="fa fa-angle-right"></i></li>
+        </ul>
+      </div>
+
+      <div class="col-sm-3 map-bg padding-right-60">
+        <div class="section-heading">
+          <h3>Contact Us</h3>
+        </div>
+        <address>
+            466 South Skylane Drive <br />
+            Durango, CO 81303 <br />
+            Phone: +1 970 259 2869 <br />
+            Toll Free US: 866 795 1586 <br />
+            Email: <a href="mailto:sales@stoneagetools.com" class="">sales@stoneagetools.com</a>
+        </address>
+      </div>
+
+      <div class="col-sm-3">
+        <a href="index.html"><img class="footer-logo" src="assets/img/stoneage-negative.png" alt="StoneAge - Engineering the Power of Water"></a>
+      </div>
+
+    </div>
+  </footer>
+
+  <div class="fluid-container copyright">
+    <div class="container">
+      <div class="col-md-11">
+        <p>2015 &copy; All Rights Reserved. <a href="#">Patents &amp; Trademarks</a> | <a href="#">Terms of Sale</a>
+        </p>
+      </div>
+      <div class="col-md-1">
+        <a href="#top" title="To Top">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- End Footer -->
+
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+  
+  <script>
+    // Google Map API
+    function initialize() {
+      var mapOptions = {
+        center: new google.maps.LatLng(37.1993803,-107.8716067),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID,
+        scrollwheel: false,
+        draggable: true,
+        panControl: true,
+        zoomControl: true,
+        mapTypeControl: true,
+        scaleControl: true,
+        streetViewControl: true,
+        overviewMapControl: true,
+        rotateControl: true,
+      };
+      var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+      var contentString = 'StoneAge, Inc. &bull; 466 South Skylane Drive &bull; Durango, CO 81303';
+      var infowindow = new google.maps.InfoWindow({
+        content: contentString
+      });
+      var marker = new google.maps.Marker({
+        position: mapOptions.center,
+        map: map,
+        title: 'StoneAge, Inc.'
+      });  
+      marker.addListener('click', function() {
+        infowindow.open(map, marker);
+      });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+  
+  <script>
+    // Inner tab links
+	
+      // Allow Page URL to activate a tab's ID
+      var taburl = document.location.toString();
+      if( taburl.match('#') ) {
+          $('.nav-tabs a[href=#'+taburl.split('#')[1]+']').tab('show');
+      }
+
+      // Allow internal links to activate a tab.
+      $('a[data-toggle="tab"]').click(function (e) {
+          e.preventDefault();
+          $('a[href="' + $(this).attr('href') + '"]').tab('show');
+      })
+  </script>
+
+</body>
+</html>

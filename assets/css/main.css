@@ -52,6 +52,9 @@ p {
 .bold {
   font-weight: 700;
 }
+.thin {
+  font-weight: 300;
+}
 .padding-30 {
   padding: 30px;
 }
@@ -73,6 +76,9 @@ p {
 }
 .padding-left-120 {
   padding-left: 120px;
+}
+.margin-top-30 {
+  margin-top: 30px;
 }
 .margin-bottom-30 {
   margin-bottom: 30px;
@@ -145,6 +151,10 @@ p {
 .slab {
   font-family: 'Roboto Slab';
 }
+.align-left {
+  text-align: left;
+}
+
 /* Header & Navigation */
 .navbar .utilities {
 /*  background-color: #444;*/
@@ -585,6 +595,87 @@ a.list-group-item {
   float: right;
   margin-bottom: 0;
   font-size: 12px;
+}
+
+/* Contact Page */
+.contact .nav-tabs {
+  padding-left: 30px;
+}
+.contact .nav-tabs>li>a {
+  border-radius: 0;
+  text-transform:uppercase;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+.contact .nav-tabs>li.active>a, .contact .nav-tabs>li.active>a:focus, .contact .nav-tabs>li.active>a:hover {
+  color: #555;
+  cursor: default;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+.contact .nav>li>a:focus, .contact .nav>li>a:hover {
+  background: none;
+}
+.contact .tab-content {
+  background-color: #f6f6f6; 
+  border-bottom: 1px solid #ddd;
+}
+.contact .tab-content ol>li {
+  padding: 4px;
+}
+.contact .tab-content em {
+  font-weight: 300;
+}
+.contact-method {
+  background: #ECE9E6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #f6f6f6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+  text-align: center;
+  border: 12px solid #f6f6f6;
+  padding: 10px 40px;
+}
+.contact-method h2 {
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.contact-method h2 i {
+  color: #ccc;
+}
+.contact-method a {
+  cursor: pointer;
+}
+.contact-method .btn {
+  font-size: 1.2vmax;
+  word-wrap: break-word;
+  white-space: normal;
+}
+#contactform input,
+#contactform textarea {
+  margin-bottom: 14px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #f6f6f6;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+  font-weight: 300;
+}
+#contactform input {
+  padding-left: 15px;
+  height: 33px;
+  border-radius: 0;
+}
+#contactform textarea {
+  padding: 15px;
+  height: 120px;
+  border-radius: 0;
+  resize: vertical;
+}
+#map-canvas {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 15px;
 }
 
 
