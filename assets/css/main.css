@@ -638,8 +638,10 @@ a.list-group-item {
   border: 1px solid #ddd;
   padding: 20px;
 }
-.contact .tab-content h2, .contact .tab-content h3 {
-  letter-spacing: .05rem;
+.contact .tab-content h2 {
+  font-family: 'Roboto Slab', 'Lato', sans-serif;
+  font-weight: 800;
+  letter-spacing: .15rem;
 }
 .contact .tab-content ol>li {
   padding: 4px;
@@ -656,11 +658,17 @@ a.list-group-item {
   padding: 10px 40px;
 }
 .contact-method h2 {
-  font-weight: 800;
   margin-bottom: 30px;
 }
 .contact-method h2 i {
   color: #ccc;
+}
+.contact-method h3 {
+  font-family: 'Roboto Slab', 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 800;
+  letter-spacing: .15rem;
 }
 .contact-method a {
   cursor: pointer;
