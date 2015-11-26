@@ -636,6 +636,7 @@ a.list-group-item {
 .contact .tab-content {
   background-color: #f6f6f6; 
   border: 1px solid #ddd;
+  padding: 20px;
 }
 .contact .tab-content h2, .contact .tab-content h3 {
   letter-spacing: .05rem;
