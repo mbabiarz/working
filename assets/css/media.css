@@ -102,4 +102,7 @@
   .product-testimonials .insight {
     display: none;
   }
+  .contact .first .dealer {
+    border-top: 1px dotted #eee;
+  }
 }
