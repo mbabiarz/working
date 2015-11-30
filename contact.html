@@ -166,7 +166,7 @@
           <div role="tabpanel" class="tab-pane" id="intl-tab">
             <div class="row">
               <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                <div class="panel panel-default">
+                <div class="panel panel-default dealer-list">
                   <div class="panel-heading" role="tab" id="africa-heading">
                     <h4 class="panel-title">
                       <a role="button" data-toggle="collapse" data-parent="#accordion" href="#africa" aria-expanded="false" aria-controls="africa">
@@ -200,9 +200,20 @@
                     </h4>
                   </div>
                   <div id="asia" class="panel-collapse collapse" role="tabpanel" aria-labelledby="asia">
+                    <div class="dealers-by-region">
+                      <ul class="list-inline">
+                        <li><a href="#china" class="region">China</a></li>
+                        <li><a href="#india" class="region">India</a></li>
+                        <li><a href="#japan" class="region">Japan</a></li>
+                        <li><a href="#korea" class="region">Korea</a></li>
+                        <li><a href="#singapore" class="region">Singapore</a></li>
+                        <li><a href="#taiwan" class="region">Taiwan</a></li>
+                        <li><a href="#thailand" class="region">Thailand</a></li>
+                      </ul>
+                    </div>
                     <ul class="list-group">
                       <li class="list-group-item">
-                        <h2>China</h2>
+                        <h2 id="china">China</h2>
                         <!-- 1st row -->
                         <div class="row first">
                           <div class="col-sm-4">
@@ -271,7 +282,7 @@
                         </div>
                       </li>
                       <li class="list-group-item">
-                        <h2>India</h2>
+                        <h2 id="india">India</h2>
                         <div class="row">
                           <div class="col-sm-4">
                             <p>Beijing Guangsheng Haoyuan Equipment and Electric
@@ -394,13 +405,305 @@
           <!-- Sewer Tab Content -->
           <div role="tabpanel" class="tab-pane" id="sewer-tab">
             <div class="row">
-              
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default dealer-list">
+                  <div class="panel-heading" role="tab" id="sw-us-heading">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#sw-us" aria-expanded="false" aria-controls="sw-us">
+                        USA <i class="fa fa-plus"></i>
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="sw-us" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sw-us">
+                    <div class="row">
+                      <div class="dealers-by-region col-sm-2">
+                        <ul class="list-unstyled">
+                          <li><a href="#al" class="region">Alabama</a></li>
+                          <li><a href="#az" class="region">Arizona</a></li>
+                          <li><a href="#ak" class="region">Arkansas</a></li>
+                          <li><a href="#ca" class="region">California</a></li>
+                          <li><a href="#co" class="region">Colorado</a></li>
+                          <li><a href="#fl" class="region">Florida</a></li>
+                        </ul>
+                      </div>
+                      <div class="dealers-by-region col-sm-2">
+                        <ul class="list-unstyled">
+                          <li><a href="#ga" class="region">Georgia</a></li>
+                          <li><a href="#id" class="region">Idaho</a></li>
+                          <li><a href="#iw" class="region">Iowa</a></li>
+                          <li><a href="#il" class="region">Illinois</a></li>
+                          <li><a href="#in" class="region">Indiana</a></li>
+                          <li><a href="#ks" class="region">Kansas</a></li>
+                        </ul>
+                      </div>
+                      <div class="dealers-by-region col-sm-2">
+                        <ul class="list-unstyled">
+                          <li><a href="#la" class="region">Louisiana</a></li>
+                          <li><a href="#me" class="region">Maine</a></li>
+                          <li><a href="#ml" class="region">Maryland</a></li>
+                          <li><a href="#ma" class="region">Massachusets</a></li>
+                          <li><a href="#mi" class="region">Michigan</a></li>
+                          <li><a href="#mn" class="region">Minnesota</a></li>
+                        </ul>
+                      </div>
+                      <div class="dealers-by-region col-sm-2">
+                        <ul class="list-unstyled">
+                          <li><a href="#mt" class="region">Montana</a></li>
+                          <li><a href="#ne" class="region">Nebraska</a></li>
+                          <li><a href="#nj" class="region">New Jersey</a></li>
+                          <li><a href="#ny" class="region">New York</a></li>
+                          <li><a href="#nc" class="region">North Carolina</a></li>
+                          <li><a href="#oh" class="region">Ohio</a></li>
+                        </ul>
+                      </div>
+                      <div class="dealers-by-region col-sm-2">
+                        <ul class="list-unstyled">
+                          <li><a href="#ok" class="region">Oklahoma</a></li>
+                          <li><a href="#or" class="region">Oregon</a></li>
+                          <li><a href="#pa" class="region">Pennsylvania</a></li>
+                          <li><a href="#sc" class="region">South Carolina</a></li>
+                          <li><a href="#tn" class="region">Tennessee</a></li>
+                          <li><a href="#tx" class="region">Texas</a></li>
+                        </ul>
+                      </div>
+                      <div class="dealers-by-region col-sm-2">
+                        <ul class="list-unstyled">
+                          <li><a href="#ut" class="region">Utah</a></li>
+                          <li><a href="#va" class="region">Virginia</a></li>
+                          <li><a href="#wa" class="region">Washington</a></li>
+                          <li><a href="#wi" class="region">Wisconsin</a></li>
+                          <li><a href="#wy" class="region">Wyoming</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <h2 id="al">Alabama</h2>
+                        <div class="row first">
+                          <div class="col-sm-4 dealer">
+                            <h4>Total Blasting</h4>
+                            <p>
+                              <span class="grey">Location:</span> Edenvale, South Africa<br/>
+                              <span class="grey">Phone:</span> + 27 11 452 7578<br/>
+                              <span class="grey">Website:</span> <a href="http://www.totalblasting.co.za" target="_blank">www.totalblasting.co.za</a></p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="panel panel-default dealer-list">
+                  <div class="panel-heading" role="tab" id="sw-africa-heading">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#sw-africa" aria-expanded="false" aria-controls="sw-africa">
+                        Africa <i class="fa fa-plus"></i>
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="sw-africa" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sw-africa">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <h2>South Africa</h2>
+                        <div class="row first">
+                          <div class="col-sm-4 dealer">
+                            <h4>Total Blasting</h4>
+                            <p>
+                              <span class="grey">Location:</span> Edenvale, South Africa<br/>
+                              <span class="grey">Phone:</span> + 27 11 452 7578<br/>
+                              <span class="grey">Website:</span> <a href="http://www.totalblasting.co.za" target="_blank">www.totalblasting.co.za</a></p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading-sw-asia">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#sw-asia" aria-expanded="false" aria-controls="sw-asia">
+                        Asia <i class="fa fa-plus"></i>
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="sw-asia" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sw-asia">
+                    <div class="dealers-by-region">
+                      <ul class="list-inline">
+                        <li><a href="#china" class="region">China</a></li>
+                        <li><a href="#india" class="region">India</a></li>
+                        <li><a href="#japan" class="region">Japan</a></li>
+                        <li><a href="#korea" class="region">Korea</a></li>
+                        <li><a href="#singapore" class="region">Singapore</a></li>
+                        <li><a href="#taiwan" class="region">Taiwan</a></li>
+                        <li><a href="#thailand" class="region">Thailand</a></li>
+                      </ul>
+                    </div>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <h2 id="china">China</h2>
+                        <!-- 1st row -->
+                        <div class="row first">
+                          <div class="col-sm-4">
+                            <div class="dealer">
+                              <h4>Beijing Guangsheng Haoyuan Equipment and Electric</h4>
+                              <p>
+                                <span class="grey">Location:</span> BeiJing, China<br/>
+                                <span class="grey">Phone:</span> 861068638285<br/>
+                                <span class="grey">Website:</span> <a href="http://www.gshycn.com" target="_blank">www.gshycn.com</a>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="dealer">
+                              <h4>Dardi International Corporation</h4>
+                              <p>
+                                <span class="grey">Location:</span> Nanjing, China<br/>
+                                <span class="grey">Phone:</span> +86-25-57324298<br/>
+                                <span class="grey">Website:</span> <a href="http://www.dardiwaterjet.com" target="_blank">www.dardiwaterjet.com</a>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="dealer">
+                              <h4>FS Solutions</h4>
+                              <p>
+                                <span class="grey">Location:</span> Shanghai, China<br/>
+                                <span class="grey">Phone:</span> +86 21 6488-5250<br/>
+                                <span class="grey">Website:</span>  <a href=" www.waterblast.com" target="_blank">www.waterblast.com</a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 2nd row -->
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <div class="dealer">
+                              <h4>Jetstream</h4>
+                              <p>
+                                <span class="grey">Location:</span> Shanghai, China<br/>
+                                <span class="grey">Phone:</span> +86 21 6488-5250<br/>
+                                <span class="grey">Website:</span><a href="http://www.waterblast.com" target="_blank">www.waterblast.com</a>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="dealer">
+                              <h4>Klenco (Hong Kong) Co., Ltd</h4>
+                              <p>
+                                <span class="grey">Location:</span> Hong Kong, China<br/>
+                                <span class="grey">Phone:</span> 852.2402.8733<br/>
+                                <span class="grey">Website:</span> <a href="http://www.klenco-china.com" target="_blank">www.klenco-china.com</a>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="dealer">
+                              <h4>Nanjing Fedjetting Tech Co. Ltd.</h4>
+                              <p>
+                                <span class="grey">Location:</span> Nanjing, China<br/>
+                                <span class="grey">Phone:</span> +86 25 5215 7501<br/>
+                                <span class="grey">Website:</span>  <a href=" www.waterblast.com" target="_blank">www.fedjetting.net</a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item">
+                        <h2 id="india">India</h2>
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <p>Beijing Guangsheng Haoyuan Equipment and Electric
+                            Location: BeiJing, China
+                            Phone: 861068638285
+                            Website: www.gshycn.com
+                            E-Mail: haoyuan2929@sohu.com</p>
+                          </div>
+                          <div class="col-sm-4">
+                            <p>Beijing Guangsheng Haoyuan Equipment and Electric
+                            Location: BeiJing, China
+                            Phone: 861068638285
+                            Website: www.gshycn.com
+                            E-Mail: haoyuan2929@sohu.com</p>
+                          </div>
+                          <div class="col-sm-4">
+                            <p>Beijing Guangsheng Haoyuan Equipment and Electric
+                            Location: BeiJing, China
+                            Phone: 861068638285
+                            Website: www.gshycn.com
+                            E-Mail: haoyuan2929@sohu.com</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item">
+                        <h2>Japan</h2>
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <p>Beijing Guangsheng Haoyuan Equipment and Electric
+                            Location: BeiJing, China
+                            Phone: 861068638285
+                            Website: www.gshycn.com
+                            E-Mail: haoyuan2929@sohu.com</p>
+                          </div>
+                          <div class="col-sm-4">
+                            <p>Beijing Guangsheng Haoyuan Equipment and Electric
+                            Location: BeiJing, China
+                            Phone: 861068638285
+                            Website: www.gshycn.com
+                            E-Mail: haoyuan2929@sohu.com</p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading-sw-canada">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#sw-canada" aria-expanded="false" aria-controls="sw-canada">
+                        Canada <i class="fa fa-plus"></i>
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="sw-canada" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sw-canada">
+                    <div class="panel-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading-sw-europe">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#sw-europe" aria-expanded="false" aria-controls="sw-europe">
+                        Europe <i class="fa fa-plus"></i>
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="sw-europe" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sw-europe">
+                    <div class="panel-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading-sw-pacific">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#sw-pacific" aria-expanded="false" aria-controls="sw-pacific">
+                        South Pacific <i class="fa fa-plus"></i>
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="sw-pacific" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sw-pacific">
+                    <div class="panel-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <!-- Downhole Tab Content -->
           <div role="tabpanel" class="tab-pane" id="downhole-tab">
             <div class="row">
-
+              
             </div>
           </div>
           <!-- Repairs/Returns Tab Content -->
