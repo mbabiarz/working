@@ -60,6 +60,9 @@ p {
 .grey {
   color: #888;
 }
+.spaced {
+  letter-spacing: .1rem;
+}
 .padding-30 {
   padding: 30px;
 }
@@ -120,12 +123,18 @@ p {
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1);
 }
-.form-control:focus, .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
-    border-color: #adaaa8;
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1);
-    color: #fff;
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  border-color: #adaaa8;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1);
+  color: #fff;
+}
+.form-control:focus {
+  border-color: #adaaa8;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1);
 }
 .btn:hover {
   background-color: #81674b;
@@ -165,16 +174,8 @@ p {
 .info-table th {
   background-color: #ececec;
 }
-.results tr[visible='false'],
-.no-result{
-  display:none;
-}
-.results tr[visible='true']{
-  display:table-row;
-}
-.counter{
-  padding:8px; 
-  color:#ccc;
+.info-table-filter {
+  padding: 10px 0;
 }
 
 /* Header & Navigation */
