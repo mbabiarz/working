@@ -42,6 +42,7 @@ p {
   letter-spacing: .02rem;
   padding-bottom: 10px
 }
+/*
 .caption h4 {
   font-size: 120%;
   margin-top: 20px;
@@ -49,6 +50,7 @@ p {
 .caption p {
   line-height: 2rem;
 }
+*/
 .bold {
   font-weight: 700;
 }
@@ -67,6 +69,9 @@ p {
 .padding-tb-30 {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.padding-right-30 {
+  padding-right: 30px;
 }
 .padding-right-60 {
   padding-right: 60px;
@@ -156,6 +161,20 @@ p {
 }
 .align-left {
   text-align: left;
+}
+.info-table th {
+  background-color: #ececec;
+}
+.results tr[visible='false'],
+.no-result{
+  display:none;
+}
+.results tr[visible='true']{
+  display:table-row;
+}
+.counter{
+  padding:8px; 
+  color:#ccc;
 }
 
 /* Header & Navigation */
@@ -343,17 +362,17 @@ p {
   border-bottom: 1px solid #eee;
 }
 .product-thumbnails .caption h4 {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 10px;
   margin-bottom: 5px;
 }
 .product-thumbnails .caption p {
-  font-size: 12px;
-  line-height: 1.6rem;
+/*  font-size: 12px;*/
+  line-height: 1.8rem;
 }
 .product-thumbnails a.btn {
   position: absolute;
-  top: 70px;
+  top: 80px;
   right: -10px;
   font-size: 80%;
   padding: 8px;
@@ -361,7 +380,20 @@ p {
   text-transform: none;
   box-shadow: 0 0 6px rgba(0,0,0,.4);
 }
+.home-news li {
+  padding: 10px 0;
+  border-bottom: 1px solid #f3f3f3;
+}
+.home-news li h4 {
+  font-size: 16px;
+}
+.home-news small {
+  color: #888;
+  font-style: italic;
+  font-weight: 300;
+}
 #wordCarousel {
+  border-top: 9px solid #f6f6f6;
   background: #e8e8e8 url("../img/concrete_seamless.png") repeat;
   min-height: 325px;
   text-align: center;
@@ -881,5 +913,11 @@ footer .footer-logo {
 .copyright a {
   padding-left: 4px;
   padding-right: 4px;
+  color: #555;
+}
+.copyright a:hover {
+  color: #888;
+}
+.copyright a .glyphicon {
   color: #81674b;
 }
