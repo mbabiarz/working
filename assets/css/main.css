@@ -509,6 +509,9 @@ a.list-group-item {
 .spincat {
   text-align: center;
 }
+.spincat .heading-img {
+  width: 100%;
+}
 .spincat h1, .spincat h3 {
   margin: 0;
 }
