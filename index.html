@@ -74,7 +74,7 @@
   <div id="homeSlides" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-      <li data-target="#homeSlides" data-slide-to="0" class="active"></li>
+      <li data-target="#homeSlides" data-slide-to="0" class="active"><span>Test</span></li>
       <li data-target="#homeSlides" data-slide-to="1"></li>
       <li data-target="#homeSlides" data-slide-to="2"></li>
     </ol>
@@ -120,12 +120,13 @@
   <!-- Search -->
   <section class="container-fluid text-center home-search">
     <h3>What are you trying to clean?</h3>
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="For example: Heat exchanger...">
-      <span class="input-group-btn">
-        <button class="btn btn-secondary" type="button"><i class="fa fa-search"></i></button>
-      </span>
-    </div>
+    <label class="radio-inline"><input type="radio" name="optradio"  checked>Heat Exchanger</label>
+    <label class="radio-inline"><input type="radio" name="optradio">Pipe Interior</label>
+    <label class="radio-inline"><input type="radio" name="optradio">Exterior Surface</label>
+    <label class="radio-inline"><input type="radio" name="optradio">Tank or Vessel</label>
+    <label class="radio-inline"><input type="radio" name="optradio">Furnace or Boiler</label>
+    <label class="radio-inline"><input type="radio" name="optradio">Sewer Line</label>
+    <label class="radio-inline"><input type="radio" name="optradio">Coil Tubing</label>
   </section>
   <!-- End Search -->
       
