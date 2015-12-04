@@ -490,7 +490,8 @@ p.width-90 {
 .landing-nav .landing-nav-btn h2 {
   font-family: 'Roboto Slab', 'Lato', sans-serif;
   font-weight: 800;
-  font-size: 30px
+  font-size: 30px;
+  margin: 10px;
 }
 .col-sm-6.landing-nav-btn, .col-sm-4.landing-nav-btn {
   padding: 0;
@@ -501,8 +502,8 @@ p.width-90 {
   height: 100%;
   width: 100%;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .landing-nav .landing-nav-btn a:hover {
   background-color: #c3b2a0;
@@ -514,16 +515,11 @@ p.width-90 {
   font-weight: 300;
   text-transform: uppercase;
   font-size: 60px;
-  font-size: 5vw;
+  font-size: 4vw;
 }
 .header.wb-automated h1 {
   text-align: right;
-}
-.header.wb-rotary h1 {
-  font-weight: 300;
-  text-transform: uppercase;
-  font-size: 60px;
-  font-size: 5vw;
+  padding-right: 30px;
 }
 .list-group-item.header, .list-group-item.header:active, .list-group-item.header:hover {
   font-family: 'Roboto Slab', 'Lato', sans-serif;
