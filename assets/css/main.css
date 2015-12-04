@@ -317,8 +317,14 @@ p.width-90 {
 .home-slider .carousel-indicators li span {
   position: relative;
   display: block;
-  top: -5px;
+  top: -6px;
   color: #fff;
+  display: block;
+  width: 220px;
+  text-align: left;
+}
+.home-slider .carousel-indicators li.search-input {
+  border: none;
 }
 .home-slider .carousel .item>img {
   min-width: 100%;

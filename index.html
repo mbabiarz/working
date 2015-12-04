@@ -73,34 +73,45 @@
   <div class="containter-fluid home-slider">
   <div id="homeSlides" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#homeSlides" data-slide-to="0" class="active"><span>Test</span></li>
-      <li data-target="#homeSlides" data-slide-to="1"></li>
-      <li data-target="#homeSlides" data-slide-to="2"></li>
-    </ol>
+    <form action="#" onsubmit="window.open(whichsite(this), '_self'); return false;">
+      <ol class="carousel-indicators">
+        <li data-target="#homeSlides" data-slide-to="0" class="active" id="waterblast-tools-automated-equipment.html"><span>Heat Exchanger</span></li>
+        <li data-target="#homeSlides" data-slide-to="1" id="http://google.com"><span>Pipe Interior</span></li>
+        <li data-target="#homeSlides" data-slide-to="2"><span>Exterior Surface</span></li>
+        <li data-target="#homeSlides" data-slide-to="3"><span>Tank or Vessel</span></li>
+        <li data-target="#homeSlides" data-slide-to="4"><span>Furnace or Boiler</span></li>
+        <li data-target="#homeSlides" data-slide-to="5"><span>Sewer Line</span></li>
+        <li data-target="#homeSlides" data-slide-to="6"><span>Coil Tubing</span></li>
+        <li data-target="#homeSlides" data-slide-to="7"><span>Hydro-Excavation</span></li>
+        <li class="search-input"><input type="submit" class="btn" value="Search"></li>
+      </ol>
+    </form>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="assets/img/sliders/striker-hero-03.jpg" alt="Striker Remote Shotgunning">
-        <div class="carousel-caption">
-          <h2>Striker SKR-100</h2>
-          <h4>Portable remote shotgunning system</h4>
-        </div>
       </div>
       <div class="item">
         <img src="assets/img/sliders/warthog-hero-03.jpg" alt="Warthog sewer jetting nozzles">
-        <div class="carousel-caption">
-          <h2>Warthog WGR Magnum</h2>
-          <h4>The world's most durable sewer nozzles</h4>
-        </div>
       </div>
       <div class="item">
         <img src="assets/img/sliders/spincat-hero-01.jpg" alt="Warthog sewer jetting nozzles">
-        <div class="carousel-caption">
-          <h2>SpinCat SC-287</h2>
-          <h4>Downhole rotary wash tools<h4>
-        </div>
+      </div>
+      <div class="item">
+        <img src="assets/img/sliders/warthog-hero-03.jpg" alt="Warthog sewer jetting nozzles">
+      </div>
+      <div class="item">
+        <img src="assets/img/sliders/spincat-hero-01.jpg" alt="Warthog sewer jetting nozzles">
+      </div>
+      <div class="item">
+        <img src="assets/img/sliders/warthog-hero-03.jpg" alt="Warthog sewer jetting nozzles">
+      </div>
+      <div class="item">
+        <img src="assets/img/sliders/spincat-hero-01.jpg" alt="Warthog sewer jetting nozzles">
+      </div>
+      <div class="item">
+        <img src="assets/img/sliders/warthog-hero-03.jpg" alt="Warthog sewer jetting nozzles">
       </div>
     </div>
 
@@ -407,6 +418,18 @@ The products we purchase are of the highest specification from a technical, qual
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="assets/js/custom.js"></script>
+  
+  <!--  Slider mega-test-->
+  <script type="text/javascript">
+    function whichsite(form){
+        var sites = document.querySelectorAll(".home-slider ol.carousel-indicators li"), i = sites.length;
+        while (--i > -1){
+            if(sites[i].classList.contains('active')){
+                return sites[i].id;
+            }
+        }
+    }
+  </script>
 
 </body>
 </html>

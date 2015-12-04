@@ -115,7 +115,3 @@ window.onload = function() {
   });
 }
 
-//***** Master Slider *****//
-jQuery(document).ready(function() {    
-  MasterSliderShowcase2.initMasterSliderShowcase2();
-});
