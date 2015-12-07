@@ -294,21 +294,44 @@ p.width-90 {
 }
 
 /* Home Page */
+.home-slider .indicator-panel h3 {
+  margin: 5%;
+  color: #fff;
+  font-weight: 600;
+  text-align: left;
+}
+.home-slider .indicator-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  width: 42%;
+  height: 100%;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+  list-style: none;
+  background-color: rgba(0,0,0,.4);
+}
 .home-slider .carousel-indicators {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    z-index: 15;
-    width: 60%;
-    padding-left: 0;
-    margin-left: -30%;
-    text-align: center;
-    list-style: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  height: 100%;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+  list-style: none;
 }
 .home-slider .carousel-indicators li {
   display: block;
-  margin: 12px;
+  margin: 16px;
+  margin-left: 20%;
   text-indent: 15px;
+}
+.home-slider .carousel-indicators li:first-child {
+  margin-top: 25%;
 }
 .home-slider .carousel-indicators .active {
   width: 10px;
@@ -320,7 +343,7 @@ p.width-90 {
   top: -6px;
   color: #fff;
   display: block;
-  width: 220px;
+  width: 300px;
   text-align: left;
 }
 .home-slider .carousel-indicators li.search-input {
