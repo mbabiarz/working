@@ -295,7 +295,7 @@ p.width-90 {
 
 /* Home Page */
 .home-slider .indicator-panel h3 {
-  margin: 5%;
+  margin: 5% 2% 5% 10%;
   color: #fff;
   font-weight: 600;
   text-align: left;
@@ -305,7 +305,7 @@ p.width-90 {
   top: 0;
   left: 0;
   z-index: 15;
-  width: 42%;
+  width: 380px;
   height: 100%;
   padding-left: 0;
   margin-left: 0;
@@ -323,12 +323,15 @@ p.width-90 {
   margin-left: 0;
   text-align: center;
   list-style: none;
+  font-size: 12px;
+  letter-spacing: .1rem;
 }
 .home-slider .carousel-indicators li {
   display: block;
-  margin: 16px;
-  margin-left: 20%;
+  margin: 14px;
+  margin-left: 33%;
   text-indent: 15px;
+  
 }
 .home-slider .carousel-indicators li:first-child {
   margin-top: 25%;
@@ -340,7 +343,7 @@ p.width-90 {
 .home-slider .carousel-indicators li span {
   position: relative;
   display: block;
-  top: -6px;
+  top: -5px;
   color: #fff;
   display: block;
   width: 300px;
