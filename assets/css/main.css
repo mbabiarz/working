@@ -294,6 +294,10 @@ p.width-90 {
 }
 
 /* Home Page */
+.home-slider {
+  max-height: 600px;
+  overflow: hidden;
+}
 .home-slider .indicator-panel h3 {
   margin: 5% 2% 5% 10%;
   color: #fff;
@@ -689,6 +693,9 @@ a.list-group-item:hover {
   list-style: none;
   padding: 8px 0;
   border-bottom: 1px dotted #eee;
+}
+.product .panel-body ul.nav-tabs li {
+  padding: 0;
 }
 .product .panel-body ul li:last-of-type {
   border-bottom: 0;
