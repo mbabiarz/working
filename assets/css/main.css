@@ -705,6 +705,12 @@ a.list-group-item:hover {
   vertical-align: top;
   border: 0;
 }
+.table.specs>tbody>tr>th {
+  width: 40%;
+}
+.table.specs>tbody>tr>td {
+  width: 30%;
+}
 .product-extra p {
   font-style: italic;
   line-height: 180%;
