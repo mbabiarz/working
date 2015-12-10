@@ -295,7 +295,7 @@ p.width-90 {
 
 /* Home Page */
 .home-slider {
-  max-height: 600px;
+  max-height: 450px;
   overflow: hidden;
 }
 .home-slider .indicator-panel h3 {
