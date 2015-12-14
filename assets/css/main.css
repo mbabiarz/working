@@ -356,7 +356,7 @@ p.width-90 {
 .home-slider .carousel-indicators li.search-input {
   border: none;
 }
-.home-slider .carousel .item>img {
+.home-slider .carousel .item>img, .product-testimonials .carousel .item>img {
   min-width: 100%;
 }
 .home-slider .carousel-caption h2 {

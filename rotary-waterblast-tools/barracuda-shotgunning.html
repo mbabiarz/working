@@ -164,80 +164,142 @@
             </div>
             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
               <div class="panel-body">
-                <table class="table specs table-hover">
-                <tbody>
-                  <tr>
-                    <th>Tool Family</th>
-                    <td colspan="2">Barracuda</td>
-                  </tr>
-                  <tr>
-                    <th>Tool Model</th>
-                    <td colspan="2">BC-K</td>
-                  </tr>
-                  <tr>
-                    <th>Pressure Range</th>
-                    <td>2–22k psi</td>
-                    <td><span class="metric">140–1500 bar</span
-                  </tr>
-                  <tr>
-                    <th>Flow Range</th>
-                    <td>4.4–11 gpm</td>
-                    <td><span class="metric">17–42 l/min</span></td>
-                  </tr>
-                  <tr>
-                    <th>Inlet Connection</th>
-                    <td colspan="2">9/16 MP</td>
-                  </tr>
-                  <tr>
-                    <th>Weight</th>
-                    <td>2.7 lb</td>
-                    <td><span class="metric">1.2 kg</span></td>
-                  </tr>
-                  <tr>
-                    <th>Maximum Water Temp.</th>
-                    <td>160 &deg;F</td>
-                    <td><span class="metric">70 &deg;C</spam></td>
-                  </tr>
-                </tbody>
-                </table>
-              </div>
-              <div class="panel-body">
-                <table class="table specs table-hover">
-                <tbody>
-                  <tr>
-                    <th>Tool Family</th>
-                    <td colspan="2">Barracuda</td>
-                  </tr>
-                  <tr>
-                    <th>Tool Model</th>
-                    <td colspan="2">BC-K-P2</td>
-                  </tr>
-                  <tr>
-                    <th>Pressure Range</th>
-                    <td>5–22k psi</td>
-                    <td><span class="metric">340–1500 bar</span
-                  </tr>
-                  <tr>
-                    <th>Flow Range</th>
-                    <td>4.0–13 gpm</td>
-                    <td><span class="metric">16–49 l/min</span></td>
-                  </tr>
-                  <tr>
-                    <th>Inlet Connection</th>
-                    <td colspan="2">9/16 MP</td>
-                  </tr>
-                  <tr>
-                    <th>Weight</th>
-                    <td>2.7 lb</td>
-                    <td><span class="metric">1.2 kg</span></td>
-                  </tr>
-                  <tr>
-                    <th>Maximum Water Temp.</th>
-                    <td>160 &deg;F</td>
-                    <td><span class="metric">70 &deg;C</spam></td>
-                  </tr>
-                </tbody>
-                </table>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active"><a href="#bck" aria-controls="bck" role="tab" data-toggle="tab">BC-K</a></li>
+                  <li role="presentation"><a href="#p2" aria-controls="p2" role="tab" data-toggle="tab">BC-K-P2</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="bck">
+                    <table class="table specs table-hover">
+                    <tbody>
+                      <tr>
+                        <th>Tool Family</th>
+                        <td colspan="2">Barracuda</td>
+                      </tr>
+                      <tr>
+                        <th>Tool Model</th>
+                        <td colspan="2">BC-K</td>
+                      </tr>
+                      <tr>
+                        <th>Pressure Range</th>
+                        <td>2–22k psi</td>
+                        <td><span class="metric">140–1500 bar</span
+                      </tr>
+                      <tr>
+                        <th>Flow Range</th>
+                        <td>4.4–11 gpm</td>
+                        <td><span class="metric">17–42 l/min</span></td>
+                      </tr>
+                      <tr>
+                        <th>Flow Coefficient</th>
+                        <td colspan="2">0.43 Cv</td>
+                      </tr>
+                      <tr>
+                        <th>Inlet Connection</th>
+                        <td colspan="2">9/16 MP</td>
+                      </tr>
+                      <tr>
+                        <th>Port Size</th>
+                        <td colspan="2">1/4 NPT (P4)</td>
+                      </tr>
+                      <tr>
+                        <th>Nozzle Type</th>
+                        <td colspan="2">AP4</td>
+                      </tr>
+                      <tr>
+                        <th>Port Plug</th>
+                        <td colspan="2">N/A</td>
+                      </tr>
+                      <tr>
+                        <th>Diameter</th>
+                        <td>1.8 in.</td>
+                        <td><span class="metric">46 mm</span></td>
+                      </tr>
+                      <tr>
+                        <th>Length</th>
+                        <td>7.8 in.</td>
+                        <td><span class="metric">200 mm</span></td>
+                      </tr>
+                      <tr>
+                        <th>Weight</th>
+                        <td>2.7 lb</td>
+                        <td><span class="metric">1.2 kg</span></td>
+                      </tr>
+                      <tr>
+                        <th>Maximum Water Temp.</th>
+                        <td>160 &deg;F</td>
+                        <td><span class="metric">70 &deg;C</spam></td>
+                      </tr>
+                    </tbody>
+                    </table>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="p2">
+                    <table class="table specs table-hover">
+                    <tbody>
+                      <tr>
+                        <th>Tool Family</th>
+                        <td colspan="2">Barracuda</td>
+                      </tr>
+                      <tr>
+                        <th>Tool Model</th>
+                        <td colspan="2">BC-K-P2</td>
+                      </tr>
+                      <tr>
+                        <th>Pressure Range</th>
+                        <td>2–22k psi</td>
+                        <td><span class="metric">140–1500 bar</span
+                      </tr>
+                      <tr>
+                        <th>Flow Range</th>
+                        <td>4.3–11 gpm</td>
+                        <td><span class="metric">16–42 l/min</span></td>
+                      </tr>
+                      <tr>
+                        <th>Flow Coefficient</th>
+                        <td colspan="2">0.43 Cv</td>
+                      </tr>
+                      <tr>
+                        <th>Inlet Connection</th>
+                        <td colspan="2">9/16 MP</td>
+                      </tr>
+                      <tr>
+                        <th>Port Size</th>
+                        <td colspan="2">1/8 NPT (P2)</td>
+                      </tr>
+                      <tr>
+                        <th>Nozzle Type</th>
+                        <td colspan="2">AP2</td>
+                      </tr>
+                      <tr>
+                        <th>Port Plug</th>
+                        <td colspan="2">GP 025-P2SS</td>
+                      </tr>
+                      <tr>
+                        <th>Diameter</th>
+                        <td>1.8 in.</td>
+                        <td><span class="metric">46 mm</span></td>
+                      </tr>
+                      <tr>
+                        <th>Length</th>
+                        <td>7.8 in.</td>
+                        <td><span class="metric">200 mm</span></td>
+                      </tr>
+                      <tr>
+                        <th>Weight</th>
+                        <td>2.7 lb</td>
+                        <td><span class="metric">1.2 kg</span></td>
+                      </tr>
+                      <tr>
+                        <th>Maximum Water Temp.</th>
+                        <td>160 &deg;F</td>
+                        <td><span class="metric">70 &deg;C</spam></td>
+                      </tr>
+                    </tbody>
+                    </table>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -251,118 +313,207 @@
             </div>
             <div id="collapse40k" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading40k">
               <div class="panel-body">
-                <table class="table specs table-hover">
-                <tbody>
-                  <tr>
-                    <th>Tool Family</th>
-                    <td colspan="2">Barracuda</td>
-                  </tr>
-                  <tr>
-                    <th>Tool Model</th>
-                    <td colspan="2">BC-H9-C</td>
-                  </tr>
-                  <tr>
-                    <th>Pressure Range</th>
-                    <td>20-40k psi</td>
-                    <td><span class="metric">1400–2800 bar</span
-                  </tr>
-                  <tr>
-                    <th>Flow Range</th>
-                    <td>5.0–7.4 gpm</td>
-                    <td><span class="metric">19–28 l/min</span></td>
-                  </tr>
-                  <tr>
-                    <th>Inlet Connection</th>
-                    <td colspan="2">9/16 HP</td>
-                  </tr>
-                  <tr>
-                    <th>Weight</th>
-                    <td>2.9 lb</td>
-                    <td><span class="metric">1.3 kg</span></td>
-                  </tr>
-                  <tr>
-                    <th>Maximum Water Temp.</th>
-                    <td>160 &deg;F</td>
-                    <td><span class="metric">70 &deg;C</spam></td>
-                  </tr>
-                </tbody>
-                </table>
-              </div>
-              <div class="panel-body">
-                <table class="table specs table-hover">
-                <tbody>
-                  <tr>
-                    <th>Tool Family</th>
-                    <td colspan="2">Barracuda</td>
-                  </tr>
-                  <tr>
-                    <th>Tool Model</th>
-                    <td colspan="2">BC-H9LF-C</td>
-                  </tr>
-                  <tr>
-                    <th>Pressure Range</th>
-                    <td>20-40k psi</td>
-                    <td><span class="metric">1400–2800 bar</span
-                  </tr>
-                  <tr>
-                    <th>Flow Range</th>
-                    <td>2.9–4.8 gpm</td>
-                    <td><span class="metric">11–18 l/min</span></td>
-                  </tr>
-                  <tr>
-                    <th>Inlet Connection</th>
-                    <td colspan="2">9/16 HP</td>
-                  </tr>
-                  <tr>
-                    <th>Weight</th>
-                    <td>2.9 lb</td>
-                    <td><span class="metric">1.3 kg</span></td>
-                  </tr>
-                  <tr>
-                    <th>Maximum Water Temp.</th>
-                    <td>160 &deg;F</td>
-                    <td><span class="metric">70 &deg;C</spam></td>
-                  </tr>
-                </tbody>
-                </table>
-              </div>
-              <div class="panel-body">
-                <table class="table specs table-hover">
-                <tbody>
-                  <tr>
-                    <th>Tool Family</th>
-                    <td colspan="2">Barracuda</td>
-                  </tr>
-                  <tr>
-                    <th>Tool Model</th>
-                    <td colspan="2">BC-H9XXLF-C-TI</td>
-                  </tr>
-                  <tr>
-                    <th>Pressure Range</th>
-                    <td>20-40k psi</td>
-                    <td><span class="metric">1400–2800 bar</span
-                  </tr>
-                  <tr>
-                    <th>Flow Range</th>
-                    <td>1.7–3.1 gpm</td>
-                    <td><span class="metric">6–12 l/min</span></td>
-                  </tr>
-                  <tr>
-                    <th>Inlet Connection</th>
-                    <td colspan="2">9/16 HP</td>
-                  </tr>
-                  <tr>
-                    <th>Weight</th>
-                    <td>3.2 lb</td>
-                    <td><span class="metric">1.5 kg</span></td>
-                  </tr>
-                  <tr>
-                    <th>Maximum Water Temp.</th>
-                    <td>160 &deg;F</td>
-                    <td><span class="metric">70 &deg;C</spam></td>
-                  </tr>
-                </tbody>
-                </table>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active"><a href="#h9c" aria-controls="h9c" role="tab" data-toggle="tab">BC-H9-C</a></li>
+                  <li role="presentation"><a href="#h9lf" aria-controls="h9lf" role="tab" data-toggle="tab">BC-H9LF-C</a></li>
+                  <li role="presentation"><a href="#h9xx" aria-controls="h9xx" role="tab" data-toggle="tab">BC-H9XXLF-C-TI</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="h9c">
+                    <table class="table specs table-hover">
+                    <tbody>
+                      <tr>
+                        <th>Tool Family</th>
+                        <td colspan="2">Barracuda</td>
+                      </tr>
+                      <tr>
+                        <th>Tool Model</th>
+                        <td colspan="2">BC-H9-C</td>
+                      </tr>
+                      <tr>
+                        <th>Pressure Range</th>
+                        <td>20-40k psi</td>
+                        <td><span class="metric">1400–2800 bar</span
+                      </tr>
+                      <tr>
+                        <th>Flow Range</th>
+                        <td>5.0–7.4 gpm</td>
+                        <td><span class="metric">19–28 l/min</span></td>
+                      </tr>
+                      <tr>
+                        <th>Flow Coefficient</th>
+                        <td colspan="2">0.38 Cv</td>
+                      </tr>
+                      <tr>
+                        <th>Inlet Connection</th>
+                        <td colspan="2">9/16 HP</td>
+                      </tr>
+                      <tr>
+                        <th>Port Size</th>
+                        <td colspan="2">7/16-20 UNF (S7)</td>
+                      </tr>
+                      <tr>
+                        <th>Nozzle Type</th>
+                        <td colspan="2">OS7</td>
+                      </tr>
+                      <tr>
+                        <th>Port Plug</th>
+                        <td colspan="2">OS7 002</td>
+                      </tr>
+                      <tr>
+                        <th>Diameter</th>
+                        <td>1.8 in.</td>
+                        <td><span class="metric">46 mm</span></td>
+                      </tr>
+                      <tr>
+                        <th>Length</th>
+                        <td>7.8 in.</td>
+                        <td><span class="metric">200 mm</span></td>
+                      </tr>
+                      <tr>
+                        <th>Weight</th>
+                        <td>2.9 lb</td>
+                        <td><span class="metric">1.3 kg</span></td>
+                      </tr>
+                      <tr>
+                        <th>Maximum Water Temp.</th>
+                        <td>160 &deg;F</td>
+                        <td><span class="metric">70 &deg;C</spam></td>
+                      </tr>
+                    </tbody>
+                    </table>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="h9lf">
+                    <table class="table specs table-hover">
+                    <tbody>
+                      <tr>
+                        <th>Tool Family</th>
+                        <td colspan="2">Barracuda</td>
+                      </tr>
+                      <tr>
+                        <th>Tool Model</th>
+                        <td colspan="2">BC-H9LF-C</td>
+                      </tr>
+                      <tr>
+                        <th>Pressure Range</th>
+                        <td>20-40k psi</td>
+                        <td><span class="metric">1400–2800 bar</span
+                      </tr>
+                      <tr>
+                        <th>Flow Range</th>
+                        <td>2.9–4.8 gpm</td>
+                        <td><span class="metric">11–18 l/min</span></td>
+                      </tr>
+                      <tr>
+                        <th>Flow Coefficient</th>
+                        <td colspan="2">0.38 Cv</td>
+                      </tr>
+                      <tr>
+                        <th>Inlet Connection</th>
+                        <td colspan="2">9/16 HP</td>
+                      </tr>
+                      <tr>
+                        <th>Port Size</th>
+                        <td colspan="2">7/16-20 UNF (S7)</td>
+                      </tr>
+                      <tr>
+                        <th>Nozzle Type</th>
+                        <td colspan="2">OS7</td>
+                      </tr>
+                      <tr>
+                        <th>Port Plug</th>
+                        <td colspan="2">OS7 002</td>
+                      </tr>
+                      <tr>
+                        <th>Diameter</th>
+                        <td>1.8 in.</td>
+                        <td><span class="metric">46 mm</span></td>
+                      </tr>
+                      <tr>
+                        <th>Length</th>
+                        <td>7.8 in.</td>
+                        <td><span class="metric">200 mm</span></td>
+                      </tr>
+                      <tr>
+                        <th>Weight</th>
+                        <td>2.9 lb</td>
+                        <td><span class="metric">1.3 kg</span></td>
+                      </tr>
+                      <tr>
+                        <th>Maximum Water Temp.</th>
+                        <td>160 &deg;F</td>
+                        <td><span class="metric">70 &deg;C</spam></td>
+                      </tr>
+                    </tbody>
+                    </table>           
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="h9xx">
+                    <table class="table specs table-hover">
+                    <tbody>
+                      <tr>
+                        <th>Tool Family</th>
+                        <td colspan="2">Barracuda</td>
+                      </tr>
+                      <tr>
+                        <th>Tool Model</th>
+                        <td colspan="2">BC-H9XXLF-C-TI</td>
+                      </tr>
+                      <tr>
+                        <th>Pressure Range</th>
+                        <td>20-40k psi</td>
+                        <td><span class="metric">1400–2800 bar</span
+                      </tr>
+                      <tr>
+                        <th>Flow Range</th>
+                        <td>1.7–3.1 gpm</td>
+                        <td><span class="metric">6–12 l/min</span></td>
+                      </tr>
+                      <tr>
+                        <th>Flow Coefficient</th>
+                        <td colspan="2">0.38 Cv</td>
+                      </tr>
+                      <tr>
+                        <th>Inlet Connection</th>
+                        <td colspan="2">9/16 HP</td>
+                      </tr>
+                      <tr>
+                        <th>Port Size</th>
+                        <td colspan="2">7/16-20 UNF (S7)</td>
+                      </tr>
+                      <tr>
+                        <th>Nozzle Type</th>
+                        <td colspan="2">OS7</td>
+                      </tr>
+                      <tr>
+                        <th>Port Plug</th>
+                        <td colspan="2">OS7 002</td>
+                      </tr>
+                      <tr>
+                        <th>Diameter</th>
+                        <td>2.5 in.</td>
+                        <td><span class="metric">62 mm</span></td>
+                      </tr>
+                      <tr>
+                        <th>Length</th>
+                        <td>8.9 in.</td>
+                        <td><span class="metric">226 mm</span></td>
+                      </tr>
+                      <tr>
+                        <th>Weight</th>
+                        <td>3.2 lb</td>
+                        <td><span class="metric">1.5 kg</span></td>
+                      </tr>
+                      <tr>
+                        <th>Maximum Water Temp.</th>
+                        <td>160 &deg;F</td>
+                        <td><span class="metric">70 &deg;C</spam></td>
+                      </tr>
+                    </tbody>
+                    </table>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
