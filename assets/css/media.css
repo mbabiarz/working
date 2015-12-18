@@ -1,4 +1,9 @@
 /*------ Media Styles -------*/
+@media screen and (max-width: 1375px) {
+  .home-slider .indicator-panel {
+    top: 32rem;
+  }
+}
 @media screen and (max-width: 1200px) {
   .product-thumbnails a.btn {
     top:48px;
@@ -12,18 +17,6 @@
     max-width: 200px;
   }
 }
-/*
-@media screen and (max-width: 848px) {
-  .home-slider .carousel-indicators li:first-child {
-    margin-top: 35%;
-  }
-  .home-slider .carousel-indicators li {
-    font-size: 80%;
-    margin-top: 12px;
-    margin-bottom: 12px;
-  }
-}
-*/
 @media screen and (max-width: 768px) {
   .col-sm-4, .col-sm-3, .navbar .utilities .utils {
     text-align: center;
