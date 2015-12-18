@@ -301,7 +301,7 @@ p.width-90 {
 }
 .home-slider .indicator-panel {
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 0;
   z-index: 15;
   width: 68%;
