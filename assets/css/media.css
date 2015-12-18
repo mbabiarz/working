@@ -96,7 +96,11 @@
     display: none;
   }
 }
-
+@media screen and (min-width: 480px) {
+  .utilities .col-sm-12.mobile-contact {
+    display: none;
+  }
+}
 @media screen and (max-width: 480px) {
 /*
   .carousel-caption h2 {
@@ -109,8 +113,8 @@
     font-size:100%;
   }
 */
-  .utilities .col-sm-4 {
-    display: none
+  .utilities .col-sm-4, .utilities .col-sm-8 {
+    display: none;
   }
   .btn.contact {
     font-size: 3.6vw;

@@ -203,6 +203,9 @@ p.width-90 {
 .navbar .utilities .utils {
   text-align: right;
 }
+.navbar .utilities .mobile-contact {
+  text-align: center;
+}
 .navbar .utilities ul>li>a {
   color: #e7e7e7;
   text-transform: uppercase;
@@ -301,7 +304,7 @@ p.width-90 {
 }
 .home-slider .indicator-panel {
   position: absolute;
-  top: 70%;
+  top: 65%;
   left: 0;
   z-index: 15;
   width: 68%;
