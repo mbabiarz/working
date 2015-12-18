@@ -13,6 +13,13 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .home-slider .indicator-panel {
+    top: 60%;
+    width: 70%;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .product-thumbnails a.btn {
     top:80px;
