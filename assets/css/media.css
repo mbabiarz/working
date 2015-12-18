@@ -7,8 +7,6 @@
 @media screen and (max-width: 1202px) {
   .home-slider .indicator-panel {
     height: 120px;
-    top: 60%;
-    width: 70%;
   }
   .product-thumbnails a.btn {
     top:48px;
@@ -24,7 +22,7 @@
   }
   .home-slider .indicator-panel {
     top: 50%;
-    width: 70%;
+    width: 75%;
   }
 }
 
