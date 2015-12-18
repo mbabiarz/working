@@ -1,5 +1,5 @@
 /*------ Media Styles -------*/
-@media screen and (max-width: 1375px) {
+@media screen and (min-width: 1375px) {
   .home-slider .indicator-panel {
     top: 32rem;
   }
