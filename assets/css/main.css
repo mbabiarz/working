@@ -323,7 +323,8 @@ p.width-90 {
   top: 0;
   right: -90px;
   height: 100%;
-  width: 90px
+  width: 90px;
+  font-size: 16px;
 }
 .home-slider .carousel-indicators {
   position: absolute;
