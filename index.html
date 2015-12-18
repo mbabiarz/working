@@ -75,17 +75,28 @@
     <!-- Indicators -->
     <form action="#" onsubmit="window.open(whichsite(this), '_self'); return false;" class="indicator-panel">
       <h3>What are you cleaning?</h3>
+      <div class="carousel-indicators">
+        <a data-target="#homeSlides" data-slide-to="0" class="active" id="waterblast-tools-automated-equipment.html"><span>Heat Exchangers</span></a>
+        <a data-target="#homeSlides" data-slide-to="1" id="http://google.com"><span>Pipe Interiors</span></a>
+        <a data-target="#homeSlides" data-slide-to="2"><span>Exterior Surfaces</span></a>
+        <a data-target="#homeSlides" data-slide-to="3"><span>Tanks/Vessels</span></a>
+        <a data-target="#homeSlides" data-slide-to="4"><span>Furnaces/Boilers</span></a>
+        <a data-target="#homeSlides" data-slide-to="5"><span>Sewer Lines</span></a>
+        <a data-target="#homeSlides" data-slide-to="6"><span>Downhole</span></a>
+      </div>
+      <input type="submit" class="btn" value="GO">
+<!--
       <ol class="carousel-indicators">
         <li data-target="#homeSlides" data-slide-to="0" class="active" id="waterblast-tools-automated-equipment.html"><span>Heat Exchangers</span></li>
         <li data-target="#homeSlides" data-slide-to="1" id="http://google.com"><span>Pipe Interiors</span></li>
         <li data-target="#homeSlides" data-slide-to="2"><span>Exterior Surfaces</span></li>
-        <li data-target="#homeSlides" data-slide-to="3"><span>Tank or Vessel</span></li>
-        <li data-target="#homeSlides" data-slide-to="4"><span>Furnaces or Boilers</span></li>
+        <li data-target="#homeSlides" data-slide-to="3"><span>Tanks/Vessels</span></li>
+        <li data-target="#homeSlides" data-slide-to="4"><span>Furnaces/Boilers</span></li>
         <li data-target="#homeSlides" data-slide-to="5"><span>Sewer Lines</span></li>
-        <li data-target="#homeSlides" data-slide-to="6"><span>Coil Tubing</span></li>
-        <li data-target="#homeSlides" data-slide-to="7"><span>Hydro-Excavation</span></li>
+        <li data-target="#homeSlides" data-slide-to="6"><span>Downhole</span></li>
         <li class="search-input"><input type="submit" class="btn" value="Search"></li>
       </ol>
+-->
     </form>
 
     <!-- Wrapper for slides -->
@@ -111,9 +122,6 @@
       <div class="item">
         <img src="assets/img/sliders/spincat-hero-01.jpg" alt="Warthog sewer jetting nozzles">
       </div>
-      <div class="item">
-        <img src="assets/img/sliders/warthog-hero-03.jpg" alt="Warthog sewer jetting nozzles">
-      </div>
     </div>
 
     <!-- Controls
@@ -129,7 +137,7 @@
   </div>
   <!-- End Carousel -->
 
-  <!-- Search -->
+  <!-- Search
   <section class="container-fluid text-center home-search">
     <h3>What are you trying to clean?</h3>
     <label class="radio-inline"><input type="radio" name="optradio"  checked>Heat Exchanger</label>
@@ -140,7 +148,7 @@
     <label class="radio-inline"><input type="radio" name="optradio">Sewer Line</label>
     <label class="radio-inline"><input type="radio" name="optradio">Coil Tubing</label>
   </section>
-  <!-- End Search -->
+  End Search -->
       
   <!-- About -->
   <section class="home-about">
@@ -423,7 +431,7 @@ The products we purchase are of the highest specification from a technical, qual
   <!--  Slider mega-test-->
   <script type="text/javascript">
     function whichsite(form){
-        var sites = document.querySelectorAll(".home-slider ol.carousel-indicators li"), i = sites.length;
+        var sites = document.querySelectorAll(".home-slider .carousel-indicators a"), i = sites.length;
         while (--i > -1){
             if(sites[i].classList.contains('active')){
                 return sites[i].id;
