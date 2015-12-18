@@ -4,12 +4,19 @@
     top: 32rem;
   }
 }
-@media screen and (max-width: 1202px) {
+@media screen and (max-width: 1212px) {
   .home-slider .indicator-panel {
     height: 120px;
   }
   .product-thumbnails a.btn {
     top:48px;
+  }
+}
+
+@media screen and (max-width: 1096px) {
+  .home-slider .indicator-panel {
+    top: 48%;
+    width: 75%;
   }
 }
 
@@ -22,7 +29,7 @@
   }
   .home-slider .indicator-panel {
     top: 50%;
-    width: 75%;
+    width: 70%;
   }
 }
 
