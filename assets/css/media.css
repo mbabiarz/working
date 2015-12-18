@@ -97,7 +97,7 @@
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 479px) {
   .utilities .col-sm-12.mobile-contact {
     display: none;
   }
