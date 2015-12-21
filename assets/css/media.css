@@ -128,8 +128,3 @@
     border-top: 1px dotted #eee;
   }
 }
-
-@media screen and (max-width: 320px) {
-  body {
-    padding-top: 150px;
-  }

@@ -307,7 +307,7 @@ p.width-90 {
   top: 65%;
   left: 0;
   z-index: 15;
-  width: 68%;
+  width: 69%;
   height: 90px;
   list-style: none;
   background-color: rgba(255,255,255,.8);
@@ -321,10 +321,17 @@ p.width-90 {
 .home-slider .indicator-panel input.btn {
   position: absolute;
   top: 0;
-  right: -90px;
+  right: -68px;
   height: 100%;
   width: 90px;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 800;
+/*
+	-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+  border-left: 9px solid #fff;
+  */
 }
 .home-slider .carousel-indicators {
   position: absolute;
@@ -924,6 +931,27 @@ a.list-group-item:hover {
 }
 .contact .dealers-by-region ullist-inline>li:last-of-type {
   border-right: 0;
+}
+
+/* Right Sidebar pages */
+.results aside ul>li {
+  padding: 10px;
+  border-bottom: 1px dotted #eee;
+}
+.results aside ul>li a {
+  color: #888;
+}
+.results aside ul>li a:hover {
+  color: #9c8061;
+}
+.results .media {
+  border-bottom: 1px solid #e8e8e8;
+}
+.results img.media-object {
+  width: 80px;
+  margin-right: 20px;
+  position: relative;
+  top: -10px;
 }
 
 /* Footers */
