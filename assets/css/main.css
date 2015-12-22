@@ -445,9 +445,10 @@ p.width-90 {
   font-weight: 300;
 }
 #wordCarousel {
-  border-top: 9px solid #f6f6f6;
-  background: #e8e8e8 url("../img/concrete_seamless.png") repeat;
-  min-height: 325px;
+  border-top: 9px solid #e8e8e8;
+/*  background: #e8e8e8 url("../img/concrete_seamless.png") repeat;*/
+  background-color: #f6f6f6;
+  min-height: 350px;
   text-align: center;
 }
 #wordCarousel .item p {
@@ -458,7 +459,7 @@ p.width-90 {
   margin: 10px auto;
   color: #888888;
   letter-spacing: .1rem;
-  font-family: 'Roboto Slab', serif;
+/*  font-family: 'Roboto Slab', serif;*/
   font-weight: 100;
 }
 #wordCarousel .item p.attrib {
