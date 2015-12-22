@@ -374,12 +374,14 @@ p.width-90 {
   font-size: 16px;
   line-height: 180%;
 }
-.home-about .cta p {
+aside.cta p {
   font-size: 14px;
   padding: 0 0 0 20px;
   border-left: 1px dotted #eee;
   margin-bottom: 20px;
   line-height: 130%;
+}
+.home-about aside.cta p {
   opacity: 0;
    -webkit-transform: translateX(3rem);
    -moz-transform: translateX(3rem);
@@ -391,18 +393,18 @@ p.width-90 {
    -moz-transition-delay: 0.2s;
    transition-delay: 0.2s;
 }
-.home-about .cta p.late {
+.home-about aside.cta p.late {
    -webkit-transition-delay: 0.5s;
    -moz-transition-delay: 0.5s;
    transition-delay: 0.5s;
 }
-.home-about .cta span {
+aside.cta span {
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 600;
   font-size: 90%;
   letter-spacing: .1rem;
 }
-.home-about .cta a {
+aside.cta a {
   font-style: italic;
 }
 .home-features {
@@ -937,14 +939,14 @@ a.list-group-item:hover {
 }
 
 /* Right Sidebar pages */
-.results aside ul>li {
-  padding: 10px;
+aside.right-sidebar ul>li {
+  padding: 8px;
   border-bottom: 1px dotted #eee;
 }
-.results aside ul>li a {
+aside.right-sidebar ul>li a {
   color: #888;
 }
-.results aside ul>li a:hover {
+aside.right-sidebar ul>li a:hover {
   color: #9c8061;
 }
 .results .media {
