@@ -811,7 +811,7 @@ a.list-group-item:hover {
 .contact .nav-tabs>li.active>a, .contact .nav-tabs>li.active>a:focus, .contact .nav-tabs>li.active>a:hover {
   color: #555;
   cursor: default;
-  background-color: #eceae8;
+  background-color: #f2f2f2;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
@@ -819,7 +819,7 @@ a.list-group-item:hover {
   background: none;
 }
 .contact .tab-content {
-  background-color: #eceae8; 
+  background-color: #f2f2f2; 
   border: 1px solid #ddd;
   padding: 20px;
 }
@@ -831,10 +831,10 @@ a.list-group-item:hover {
 }
 .contact-method {
   background: #FFFFFF; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #FFFFFF, #eceae8); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #FFFFFF, #eceae8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #f2f2f2); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #f2f2f2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
   text-align: center;
-  border: 12px solid #eceae8;
+  border: 12px solid #f2f2f2;
   padding: 10px 40px;
 }
 .contact-method h2 {
