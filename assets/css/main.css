@@ -943,10 +943,10 @@ aside.right-sidebar ul>li {
   padding: 8px;
   border-bottom: 1px dotted #eee;
 }
-aside.right-sidebar ul>li a {
+.results aside.right-sidebar ul>li a {
   color: #888;
 }
-aside.right-sidebar ul>li a:hover {
+.results aside.right-sidebar ul>li a:hover {
   color: #9c8061;
 }
 .results .media {
@@ -964,6 +964,18 @@ h1.page-heading {
   font-weight: 300;
   margin-bottom: 15px;
   letter-spacing: .1rem
+}
+ul.job-listings>li {
+  padding: 20px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.work-here {
+  background: url(../img/shop_bg.jpg) no-repeat top left;
+  background-attachment: fixed;
+}
+.work-here-description {
+  background-color: rgba(0,0,0,.7);
+  color: #fff;
 }
 
 /* Footers */
