@@ -360,7 +360,7 @@ p.width-90 {
   border: 1px solid #adadad;
   padding: 6px 8px;
 }
-.home-slider .carousel .item>img, .product-testimonials .carousel .item>img {
+.home-slider .carousel .item>img, .product-testimonials .carousel .item>img, .work-here>img {
   min-width: 100%;
 }
 .home-about {
