@@ -360,7 +360,7 @@ p.width-90 {
   border: 1px solid #adadad;
   padding: 6px 8px;
 }
-.home-slider .carousel .item>img, .product-testimonials .carousel .item>img, .work-here>img {
+.home-slider .carousel .item>img, .product-testimonials .carousel .item>img {
   min-width: 100%;
 }
 .home-about {
@@ -972,6 +972,7 @@ ul.job-listings>li {
 .work-here {
   background: url(../img/shop_bg.jpg) no-repeat top left;
   background-attachment: fixed;
+  background-size: cover;
 }
 .work-here-description {
   background-color: rgba(0,0,0,.7);
