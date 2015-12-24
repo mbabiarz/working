@@ -881,7 +881,7 @@ a.list-group-item:hover {
 }
 #contactform textarea {
   padding: 15px;
-  height: 120px;
+  height: 150px;
   border-radius: 0;
   resize: vertical;
 }
