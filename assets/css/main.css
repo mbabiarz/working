@@ -866,7 +866,7 @@ a.list-group-item:hover {
 }
 #contactform input,
 #contactform textarea {
-  margin-bottom: 14px;
+  margin-bottom: 4px;
   width: 100%;
   outline: none;
   border: 1px solid #ddd;
@@ -879,11 +879,39 @@ a.list-group-item:hover {
   height: 33px;
   border-radius: 0;
 }
+#contactform input#city {
+  width: 65%;
+}
+#contactform input#state {
+  width: 30%;
+  float: right;
+}
 #contactform textarea {
   padding: 15px;
   height: 150px;
   border-radius: 0;
   resize: vertical;
+}
+#contactform .checkbox {
+  line-height: 30px;
+}
+#contactform .checkbox span {
+  padding-right: 30px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 300;
+}
+#contactform .checkbox label {
+  padding-right: 40px;
+  padding-left: 0;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+#contactform input[type=checkbox] {
+  width: 25px;
+  height: 25px;
+  border-radius: 0;
 }
 .contact .panel-group .panel {
   border-radius: 0;
@@ -996,6 +1024,23 @@ ul.job-listings>li {
 .terms .term {
   border-bottom: 1px dotted #ccc;
 }
+.safety-callout {
+  border-bottom: 1px dotted #cb3a3a;
+  border-top: 1px dotted #cb3a3a;
+  font-size: 120%;
+}
+.safety-callout a {
+  color: #cb3a3a;
+  height: 100%;
+  width: 100%;
+}
+.safety-callout a:hover {
+  color: #ef1919;
+}
+.safety-callout h2 {
+  font-weight: 800;
+}
+
 
 /* Footers */
 .footer-cta {
