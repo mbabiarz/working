@@ -78,6 +78,9 @@ p.width-90 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.padding-left-30 {
+  padding-left: 30px;
+}
 .padding-right-30 {
   padding-right: 30px;
 }
@@ -102,6 +105,9 @@ p.width-90 {
 }
 .margin-bottom-30 {
   margin-bottom: 30px;
+}
+.margin-bottom-120 {
+  margin-bottom: 120px;
 }
 .bg-lt-grey {
     background-color: #f2f2f2;
@@ -767,7 +773,7 @@ a.list-group-item:hover {
   width: 300px;
   opacity: 0.7;
   background-color: black;
-  bottom: 20%;
+  top: 15%;
   left: 10%;
   padding: 20px;
   z-index: 10;
