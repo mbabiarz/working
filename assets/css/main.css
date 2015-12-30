@@ -915,7 +915,7 @@ a.list-group-item:hover {
   font-weight: 300;
 }
 #contactform input[type=checkbox] {
-  width: 25px;
+  width: 15px;
   height: 25px;
   border-radius: 0;
 }
