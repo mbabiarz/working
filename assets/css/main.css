@@ -366,6 +366,7 @@ ul.navigational li:first-of-type {
   letter-spacing: .1rem;
   text-align: left;
   display: inline-block;
+  cursor: pointer;
 }
 .home-slider .carousel-indicators a {
   color: #585858;
