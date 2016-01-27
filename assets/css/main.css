@@ -52,15 +52,6 @@ p.width-90 {
   margin-left: auto;
   margin-right: auto;
 }
-/*
-.caption h4 {
-  font-size: 120%;
-  margin-top: 20px;
-}
-.caption p {
-  line-height: 2rem;
-}
-*/
 .bold {
   font-weight: 700;
 }
@@ -119,6 +110,9 @@ p.width-90 {
 }
 .bg-md-grey {
     background-color: #e7e7e7;
+}
+.bottom-border {
+  border-bottom: 1px solid #e7e7e7;
 }
 .clearfix {
   clear: both;
