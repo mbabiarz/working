@@ -897,6 +897,13 @@ a.list-group-item:hover {
   width: 30%;
   float: right;
 }
+#contactform input#country {
+  width: 65%;
+}
+#contactform input#code {
+  width: 30%;
+  float: right;
+}
 #contactform textarea {
   padding: 15px;
   height: 150px;
