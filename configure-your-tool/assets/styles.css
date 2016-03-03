@@ -1,0 +1,6 @@
+.configs .package td:nth-child(3) {
+  width:50%;
+}
+.configs .package td.sub {
+  padding-left:30px;
+}
